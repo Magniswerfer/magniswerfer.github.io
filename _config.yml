@@ -1,6 +1,6 @@
 # Site/SEO settings
 email: magn1549@gmail.com
-baseurl: "https://magniswerfer.github.io/"
+baseurl: ""
 permalink: /:year/:month/:day/:title/
 google_analytics: 
 
