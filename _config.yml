@@ -1,15 +1,15 @@
 # Site/SEO settings
-email: okay@samesies.io
-baseurl: ""
+email: magn1549@gmail.com
+baseurl: "https://magniswerfer.github.io/"
 permalink: /:year/:month/:day/:title/
 google_analytics: 
 
-name: Thomas Vaeth
-title: The Barber Theme
+name: Magnus Høholt
+title: Magnus Høholt
 description: >
   Barber is a blog theme for Jekyll built by Thomas Vaeth for Samesies using HTML, Sass, and JavaScript.
-url: http://barber.samesies.io
-twitter_username: thomasvaeth
+url: https://magniswerfer.github.io/
+twitter_username: magnushoeholt
 default_img: /assets/images/seo.jpg
 social:
   - name: twitter
