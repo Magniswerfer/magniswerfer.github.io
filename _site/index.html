@@ -5,23 +5,25 @@
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
-<html lang="en" class="no-js">
+<html lang="da" class="no-js">
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Personlig Portfolio</title>
+<!-- begin _includes/seo.html --><title>Magnus Høholt</title>
 <meta name="description" content="Velkommen til min personlige hjemmeside. Her kommer min blog, mit portfolio og hvad jeg lige har liggend af spændende sager op. Sikkert også mit CV.">
 
 
 
 <meta property="og:type" content="website">
-<meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="Personlig Portfolio">
-<meta property="og:title" content="Personlig Portfolio">
-<meta property="og:url" content="/">
+<meta property="og:locale" content="da_DK">
+<meta property="og:site_name" content="Magnus Høholt">
+<meta property="og:title" content="Magnus Høholt">
+<meta property="og:url" content="http://localhost:4000/">
 
 
 
+
+  <meta property="og:image" content="http://localhost:4000/assets/graphics/index_head.jpg">
 
 
 
@@ -36,9 +38,7 @@
   
 
 
-<link rel="canonical" href="/">
-
-
+<link rel="canonical" href="http://localhost:4000/">
 
 
 
@@ -47,9 +47,20 @@
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
+      "@type": "Organization",
+      "url": "http://localhost:4000",
+      "logo": "http://localhost:4000/assets/graphics/MH@300.png"
+    }
+  </script>
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
       "@type": "Person",
       "name": "Magnus Høholt",
-      "url": "https://github.com/pages/Magniswerfer/magniswerfer.github.io",
+      "url": "http://localhost:4000",
       "sameAs": null
     }
   </script>
@@ -63,7 +74,7 @@
 <!-- end _includes/seo.html -->
 
 
-<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Personlig Portfolio Feed">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Magnus Høholt Feed">
 
 <!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -113,13 +124,21 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
+          <a class="site-logo" href="/"><img src="/assets/graphics/MH_LOGO.png" alt=""></a>
+        
         <a class="site-title" href="/">Magnus Høholt</a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/" >Quick-Start Guide</a>
+              <a href="/portfolio/" >Design Portfolio</a>
+            </li><li class="masthead__menu-item">
+              <a href="/blog/" >Blog</a>
+            </li><li class="masthead__menu-item">
+              <a href="/cv/" >CV</a>
+            </li><li class="masthead__menu-item">
+              <a href="/photos/" >Photo Portfolio</a>
             </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
-          <span class="visually-hidden">Toggle menu</span>
+          <span class="visually-hidden">Vis/skjul menu</span>
           <div class="navicon"></div>
         </button>
         <ul class="hidden-links hidden"></ul>
@@ -131,6 +150,28 @@
 
     <div class="initial-content">
       
+  
+
+
+
+
+
+
+
+
+
+
+
+<div class="page__hero"
+  style=" "
+>
+  
+    <img src="/assets/graphics/index_head.jpg" alt="" class="page__hero-image">
+  
+  
+</div>
+
+
 
 
 
@@ -143,6 +184,14 @@
 <div itemscope itemtype="https://schema.org/Person">
 
   
+    <div class="author__avatar">
+      
+
+      
+        <img src="/assets/graphics/portrait.jpg" alt="Magnus Høholt" itemprop="image">
+      
+    </div>
+  
 
   <div class="author__content">
     
@@ -150,13 +199,13 @@
     
     
       <p class="author__bio" itemprop="description">
-        I am an amazing person.
+        Passionate tech critic and soon-to-be cand.scient in IT Product Development
       </p>
     
   </div>
 
   <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
+    <button class="btn btn--inverse">Følg</button>
     <ul class="author__urls social-icons">
       
         <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
@@ -171,13 +220,23 @@
           
         
           
-        
+            <li><a href="https://magniswerfer.github.io/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
           
         
           
-        
+            <li><a href="https://twitter.com/magn1549" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
           
         
+          
+            <li><a href="https://facebook.com/magniswerfer" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+          
+        
+          
+            <li><a href="https://github.com/magniswerfer" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+          
+        
+          
+            <li><a href="https://instagram.com/magnushoeholt" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
           
         
       
@@ -251,7 +310,36 @@
     
     
 
-<h3 class="archive__subtitle">Recent posts</h3>
+<h3 class="archive__subtitle">Seneste indlæg</h3>
+
+
+  
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/liftoff/" rel="permalink">We have achieved lift off!
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  mindre end 1 minutters læsning
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Se mor og far, jeg har en blog nu.
+
+</p>
+  </article>
+</div>
 
 
   
@@ -273,7 +361,7 @@
 
 
 
-  less than 1 minute read
+  mindre end 1 minutters læsning
 </p>
     
     <p class="archive__item-excerpt" itemprop="description">A banana is an edible fruit – botanically a berry – produced by several kinds
@@ -302,7 +390,7 @@ of large herbaceous flowering plants in the genus Musa.
         <div class="page__footer-follow">
   <ul class="social-icons">
     
-      <li><strong>Follow:</strong></li>
+      <li><strong>Følg:</strong></li>
     
 
     
@@ -325,7 +413,7 @@ of large herbaceous flowering plants in the genus Musa.
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2019 Magnus Høholt. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2019 Magnus Høholt. Drives af <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
