@@ -19,7 +19,7 @@ locale                   : "da-DK"
 title                    : "Magnus Høholt"
 title_separator          : "-"
 name                     : "Magnus Høholt"
-description              : "Velkommen til min personlige hjemmeside. Her kommer min blog, mit portfolio og hvad jeg lige har liggend af spændende sager op. Sikkert også mit CV."
+description              : "Velkommen til min personlige hjemmeside. Her kommer min blog, mit portfolio og hvad jeg lige har liggende af spændende sager op. Sikkert også mit CV."
 url                      : "https://magniswerfer.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -108,7 +108,8 @@ analytics:
 author:
   name             : "Magnus Høholt"
   avatar           : /assets/graphics/portrait.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Passionate tech critic and soon-to-be cand.scient in IT Product Development"
+  bio              : "Jeg er en passioneret teknologikritiker og kommende cand.scient i IT-Produktudvikling.
+                      Derudover er jeg nørd med stort N, filmelsker og fotoentusiast. Kontakt mig endelig, hvis noget fanger dit øje!"
   location         : "Aarhus, Denmark"
   email            :
   links:
