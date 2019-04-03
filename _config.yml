@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "Magnus Høholt"
-  avatar           : /assets/graphics/portraits.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /assets/graphics/portrait.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Passionate tech critic and soon-to-be cand.scient in IT Product Development"
   location         : "Aarhus, Denmark"
   email            :
