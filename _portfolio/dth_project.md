@@ -9,7 +9,7 @@ classes: wide
 author: Magnus Høholt
 ---
 
-*Dette projekt er en eksamensopgave fra min eksamen i kurset* Designteori og -historie, *som jeg havde på mit andet år på IT-Produktudvikling. Projektet er lavet på 48 timer, og opgaven var, at redesigne en klassiker fra én designperiode til en anden. I mit tilfælde redesignede jeg Olivetti Valentine skrivemaskinen fra den oprindelige postmoderne stil til en stil nærmere 60'ernes Ulm-skole*
+*Dette projekt er en eksamensopgave fra min eksamen i kurset 'Designteori og -historie', som jeg havde på mit andet år på IT-Produktudvikling. Projektet er lavet på 48 timer, og opgaven var, at redesigne en klassiker fra én designperiode til en anden. I mit tilfælde redesignede jeg Olivetti Valentine skrivemaskinen fra den oprindelige postmoderne stil til en stil nærmere 60'ernes Ulm-skole*
 
 ## Olivetti Valentine
 
@@ -26,6 +26,8 @@ Her er det tydeligt, at Sottsass ikke designer efter et rationelt brugsscenarie 
 ![alt text](https://lh3.googleusercontent.com/7R8QFfK8uPBqcxSxaNVJght74fM5t4LnelhFNiQrnwi4D7QEptFZ3Qw2w53PO8rOWzbtOH15EZEAuFq4UEBWjPNTN8Hxo8s3C-eyIi7LzjmiTcMiOrtjsdULyYr7W_lQH4pMlOFtXc9znBIDepw0hrkB8LXTS666o0vEXWkg_LkNhJPWsNoScRhoIu_kZK5hI2r_wv0UP73yfdoz2kcYBegaW2ZOxFXgCzRjW-lWYzMLfkOoVpmyCq9ThTeshiBUPbKrWUS0GaAg6n6U5gIdaY63wRVC79Fwr2SP0mQqHrgnrtDzeB0BL-7t8wbcLwOhY8t8rys-DdurEF9VW2UVx5dNydn1P0dfUSuWED83cZj1EdFe3fuHEqTI7LFyuLR2vdKzoojkREIpd-F5l57h8SLjWojGe6s5KzerfjjxqqVOVDnrTMg3Q_Y99YutZHGXHICUA9LM_gTcBTt2E_JwX9uaSZ7VaItlOew44JYnV2_2hVYGQWDUOWc6b7vPx1NMbM158t-w50camjXVDfMr4skoqIvb5wl_uO3IlnY8Gt8OFaLQ6dw0UpqNW4WdaUl5pFFk4O07YE45PzeNNVLIOUaU3eYz4tmSg75oJUImOLRzsXaX5F9uKedH_PXLmCMLK_7JW3lXaNsKgOEu92NocYrXr_7nCgvQ=w1477-h745-no "Reklame for Olivetti Valentine")
 
 ## Mit redesign
+
+![alt text](https://lh3.googleusercontent.com/LURnOzZwfZvzyCrz1xt5fv56ZQ0EAvOxMXKGeGT07Iol9Dcn2J2bjVFcqlPIzSp8PuPU4RbVk7rAC4ZpFHyye4kn0-XjGrMML2VeIaMwzLbeOqN0mYj08qn8bmamb446uVPOgLQ6YDa9csNrxZNYWCTEcyMg-LpCULsEM3iP20JAqMZyE5JhsRxTfSlUZDxCX0-0fiXldXdN_TzDzvX781nfF8i5crzP6LifWAFuCXMTp-qVhAHfzPHKAFucP-CzPtgEEw_jH9UM1iu6qb7PByl_ooJX8yAahXU3TXaPW_sBQ5aQyh4Xh7ez5H3YEU8T2MsvSrMbnZduUHQCr6QJBQ-FdDg_Q113A1QHSQgv5WkghsYrmH9lB11G6a775w8gE2ICX71Tt7yrClSIUBX-gmeRyibLGDefPo5AiksqCC6Gs-SkkLLa-dfbHA5gQamCd0wnaguTBjlOvzXrpFe827FJxJQdol8X88esLGTFkioAwNPd6iT96EsXozkSfQQ4cxxhf7Y82WEMJ-_QPaBkKMF_FPY5mJ5LvmtTYIZTbnLv-DPTFWjxhMq2YLmdFLtSmbWRBKGdYqzNVXjLN2poGdtOqdu2A06H35qv6hvXD-9xiZzLazyxdxq_UFBAfAJQrT94fMb_nuHoT0y3MJo2Z9kjcQS1uMTj=w1156-h842-no "Mine skitser")
 
 Redesignet er udført efter Ulm-skolens principper. Først om fremmest er det overordnede udtryk af denne Ulm-skrivemaskine meget simpelt. Dette skyldes, at den er designet Ulm-skolens besættelse af rationalet og systemer. Designet er derfor strippet for al ornamentik, og sigter efter at være funktionelt frem får alt andet.
 
