@@ -6,6 +6,7 @@ header:
   image: https://lh3.googleusercontent.com/BLYwwirmtzPru-o5ewQ6dSV8I1FUiWB3EJQfLOiS1ubM-VexyyzfcIsVtgwfsorYJ-jQOk_sGIWGnWCJNYlCBtuiWhynRl6u-XVeKTu4-ME76FPJOrjVr5h4egg51-elEAJEt-CZJ0JFcrZ-3YId5WuhIQLW7_x6yQah6x2Uxc9Z4pKU_ya1t7vte8TSjLx3pGhuit8huX_L7CXwilASeHtvFNq08zhprH89eLCxTfYT-MS0gYGKWDv1IMIjZGMjswc3ZfODp8lhnUChtUOX8gOWu3ZwQzkGz9erdIQzbQV3Fbuau2cccJqLSEj90KutxgEsYFX9BfKRs0c8U1LZpOaTTTvikQgGdKozEQeSMOjiyshsKORL25anKaJNzvWTCA6BAEu-tqDC-3_D-EE_75IcrR-3OEnMRujOA7ofwsNJUnu0Ojsa6ejpWtb2vwTcHl_3FTBMNCm_6cBVBizG2Hgc4oT6ZnLIW5_14k4O1TgUHrU3EjJ6IocIk2bmXzLRAwiO-rzfAz8PGH7EfzZEctYZxcPDeR573uj2ig-wm--aYNosok0Qqp9_K8kVSYBUcc79jignjYSpm0tXV1YP9TczXGxotRrgOq_0vAsDG6EJiBoEuR90b2-cTjU5b9nuGz5-UojVzuxxYU24AxkGCNlWE4x74feP=w1396-h686-no
 
 classes: wide
+author: Magnus Høholt
 ---
 
 *Dette projekt er en eksamensopgave fra min eksamen i kurset* Designteori og -historie, *som jeg havde på mit andet år på IT-Produktudvikling. Projektet er lavet på 48 timer, og opgaven var, at redesigne en klassiker fra én designperiode til en anden. I mit tilfælde redesignede jeg Olivetti Valentine skrivemaskinen fra den oprindelige postmoderne stil til en stil nærmere 60'ernes Ulm-skole*
@@ -18,7 +19,7 @@ Olivetti Valentine er en skrivemaskine  designet  af  Ettore Sottsass. Etore Sot
 
 De postmodernistiske tanker, der ligger til grund for Sottsass' design set fx i nedenstående citat:
 
-> ”The Valentine was invented for use any place except in an office, soas not to remind anyone of monotonous working hours, but rather tokeep amateur poets company on quiet Sundays in the country or toprovide a highly coloured object on a table in a studio apartment.” -Etorre Sottsass
+> ”The Valentine was invented for use any place except in an office, so as not to remind anyone of monotonous working hours, but rather to keep amateur poets company on quiet Sundays in the country or to provide a highly coloured object on a table in a studio apartment.” -Etorre Sottsass
 
 Her er det tydeligt, at Sottsass ikke designer efter et rationelt brugsscenarie og rå effektivitet som i Modernismen, men i stedet efter en bestemt følelse og en bestemt identitet. Denne udvikling ses blandt andet også i Olivetti's markedsføring af skrivemaskinen.
 
