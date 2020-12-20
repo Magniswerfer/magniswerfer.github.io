@@ -60,12 +60,13 @@ nav{
     text-decoration: underline;
 }
 
-.theme-switcher{
+.menu-item.theme-switcher{
     margin-right: 0pt;
+    margin-left: auto;
 }
 
 
-@media only screen and (max-width : 899px) {
+@media only screen and (max-width : 1199px) {
     
     .wrapper{
         font-size: 36pt;
@@ -87,15 +88,15 @@ nav{
         font-size: 64pt;
     }
 
-    .theme-switcher{
+    .menu-item.theme-switcher{
         display: none;
-        margin-left: auto;
+        
     }
 
 }
 
 /* Large Devices, Wide Screens */
-@media only screen and (min-width : 900px) {
+@media only screen and (min-width : 1200px) {
 
 
     nav{
@@ -114,7 +115,7 @@ nav{
         width: 780px;
     }
 
-    .theme-switcher{
+    .menu-item.theme-switcher{
         display: inline;
     }
 
