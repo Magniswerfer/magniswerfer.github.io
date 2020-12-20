@@ -1,7 +1,9 @@
 const parser = new DOMParser();
-const switcher = document.querySelector('.theme-switcher');
-
+const switcher = document.querySelector(".theme-switcher");
+const hamburgerBtn = document.querySelector(".hamburger-icon");
 const currentTheme = localStorage.getItem("theme");
+
+
 if (currentTheme == "dark") {
     document.body.classList.add("dark-theme");
     document.body.classList.remove("light-theme");
@@ -10,6 +12,12 @@ else{
     document.body.classList.remove("dark-theme");
     document.body.classList.add("light-theme");
 }
+
+hamburgerBtn.addEventListener('click',function() {
+   menu=document.querySelector(".menu");
+   menu.classList.toggle('visible');
+   hamburgerBtn.classList.toggle('open');
+});
 
 switcher.addEventListener('click', function() {
     document.body.classList.toggle('light-theme')

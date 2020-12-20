@@ -34,6 +34,8 @@ a {
 nav{
     position: sticky;
     top: 0;
+
+    background-color: var(--contrast);
 }
 
 .wrapper{
@@ -42,7 +44,6 @@ nav{
 }
 
 .menu{
-    background-color: var(--contrast);
     display: flex;
     flex-direction: row;
     
@@ -53,16 +54,24 @@ nav{
 .menu-item{
     color: var(--main);
     cursor: pointer;
-    margin-right: 15px;
 }
 
 .menu-item:hover{
     text-decoration: underline;
 }
 
-.menu-item.theme-switcher{
-    margin-right: 0pt;
-    margin-left: auto;
+.hamburger-icon{
+    display: none;
+    color: var(--main);
+    text-align: center;
+}
+
+.hamburger-icon:hover{
+    cursor: pointer;
+}
+
+.hamburger-icon.open{
+    text-decoration: underline;
 }
 
 
@@ -77,20 +86,24 @@ nav{
     }
 
     nav{
-        position: relative;
+        position: sticky;
+    }
+
+    .hamburger-icon{
+        display: block;
     }
 
     .menu{
-        justify-content: space-evenly;
+        flex-direction: column;
+        display: none;
+    }
+
+    .menu.visible{
+        display: block;
     }
 
     .menu-item{
         font-size: 64pt;
-    }
-
-    .menu-item.theme-switcher{
-        display: none;
-        
     }
 
 }
@@ -115,8 +128,14 @@ nav{
         width: 780px;
     }
 
+    .menu-item{
+        margin-right: 15px;
+    }
+
     .menu-item.theme-switcher{
         display: inline;
+        margin-right: 0pt;
+        margin-left: auto;
     }
 
 }
