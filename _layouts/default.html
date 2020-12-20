@@ -9,20 +9,21 @@
     </head>
     <body class="dark-theme">
 
-        <div class="content">
+        <div class="wrapper">
 
             <nav>
                 <div class="menu">
                     <div class="menu-item"><a href="/index.html">Home</a></div>
-                    <div class="menu-item"><a href="/academic-work.html">Academic Work</a></div>
+                    <div class="menu-item"><a href="/academic-work.html">Work</a></div>
                     <div class="menu-item"><a href="/blog.html">Blog</a></div>
                     <div class="menu-item"><a href="/about.html">About</a></div>
                     <div class="menu-item theme-switcher">Light Theme</div>
                 </div>
             </nav>
-
-            {{ content }}
-
+            
+            <div class ="content">
+                {{ content }}
+            </div>
         </div>
 
         <script src="/script.js"></script>

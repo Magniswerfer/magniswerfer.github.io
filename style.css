@@ -7,7 +7,7 @@
 *{
     color: var(--contrast);
     font-family: monospace;
-    margin: 0;
+
 }
 
 .dark-theme {
@@ -23,6 +23,7 @@
 
 body {
       background: var(--main);
+      margin: 0;
 }
 
 a {
@@ -35,7 +36,7 @@ nav{
     top: 0;
 }
 
-.content{
+.wrapper{
     margin-left: auto;
     margin-right: auto;
 }
@@ -46,7 +47,7 @@ nav{
     flex-direction: row;
     
     padding: 10px 10px 10px 10px;
-    width: 100%;
+    
 }
 
 .menu-item{
@@ -64,18 +65,26 @@ nav{
 }
 
 
-@media only screen and (min-width : 320px) {
+@media only screen and (max-width : 1199px) {
     
+    .wrapper{
+        font-size: 36pt;
+    }
+
+    .content{
+        margin: 50px;
+    }
+
     nav{
         position: relative;
     }
 
     .menu{
-        justify-content: center;
+        justify-content: space-evenly;
     }
 
     .menu-item{
-        font-size: x-large;
+        font-size: 64pt;
     }
 
     .theme-switcher{
@@ -88,6 +97,7 @@ nav{
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
 
+
     nav{
         position: sticky;
     }
@@ -96,7 +106,7 @@ nav{
         font-size: large;
     }
 
-    .content{
+    .wrapper{
         width: 800px;
     }
 
