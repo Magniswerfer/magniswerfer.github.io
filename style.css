@@ -1,0 +1,67 @@
+
+:root {
+    --light: #ddd;
+    --dark: #111;
+  }
+
+*{
+    color: var(--contrast);
+    font-family: monospace;
+
+}
+
+.dark-theme {
+    --main: var(--dark);
+    --contrast: var(--light);
+}
+  
+.light-theme {
+    --main: var(--light);
+    --contrast: var(--dark);
+}
+
+
+body {
+      background: var(--main);
+      margin: 5pt;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.content{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+}
+
+.menu{
+    list-style-type: none;
+    padding: 10pt 10pt 10pt 10pt;
+    overflow: hidden;
+    background-color: var(--contrast);
+    width: 100%;
+}
+
+.menu-item{
+    color: var(--main);
+    display: inline;
+    cursor: pointer;
+    margin-right: 10pt;
+}
+
+.menu-item:hover{
+    text-decoration: underline;
+}
+
+.theme-switcher{
+    float: right;
+    margin-right: 0pt;
+}
