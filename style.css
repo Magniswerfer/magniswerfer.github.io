@@ -65,7 +65,7 @@ nav{
 }
 
 
-@media only screen and (max-width : 1199px) {
+@media only screen and (max-width : 899px) {
     
     .wrapper{
         font-size: 36pt;
@@ -95,7 +95,7 @@ nav{
 }
 
 /* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
+@media only screen and (min-width : 900px) {
 
 
     nav{
