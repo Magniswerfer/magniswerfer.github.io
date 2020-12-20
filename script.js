@@ -3,6 +3,11 @@ const switcher = document.querySelector(".theme-switcher");
 const hamburgerBtn = document.querySelector(".hamburger-icon");
 const currentTheme = localStorage.getItem("theme");
 
+let currentPath = window.location.pathname;
+let currentPage = document.querySelector(`a[href='${currentPath}']`);
+currentPage.classList.add("current-page");
+
+
 
 if (currentTheme == "dark") {
     document.body.classList.add("dark-theme");

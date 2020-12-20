@@ -7,7 +7,7 @@
 *{
     color: var(--contrast);
     font-family: monospace;
-
+    
 }
 
 .dark-theme {
@@ -22,8 +22,9 @@
 
 
 body {
-      background: var(--main);
-      margin: 0;
+    background: var(--main);
+    margin: 0;
+    font-size: 14pt;
 }
 
 a {
@@ -34,7 +35,6 @@ a {
 nav{
     position: sticky;
     top: 0;
-
     background-color: var(--contrast);
 }
 
@@ -60,9 +60,14 @@ nav{
     text-decoration: underline;
 }
 
+.current-page{
+    text-decoration: underline;
+}
+
 .hamburger-icon{
     display: none;
     color: var(--main);
+    font-size: calc(24pt + 1vw);
     text-align: center;
 }
 
@@ -74,12 +79,24 @@ nav{
     text-decoration: underline;
 }
 
+h1{
+    font-size: calc(48pt);
+}
+
+h2{
+    font-size: calc(36pt);
+}
+
+h3{
+    font-size: calc(24pt);
+}
+
+h4{
+    font-size: calc(14pt);
+}
+
 
 @media only screen and (max-width : 1199px) {
-    
-    .wrapper{
-        font-size: 36pt;
-    }
 
     .content{
         margin: 50px;
@@ -87,6 +104,7 @@ nav{
 
     nav{
         position: sticky;
+        font-size: calc(36pt + 1vw);
     }
 
     .hamburger-icon{
@@ -102,10 +120,6 @@ nav{
         display: block;
     }
 
-    .menu-item{
-        font-size: 64pt;
-    }
-
 }
 
 /* Large Devices, Wide Screens */
@@ -114,6 +128,7 @@ nav{
 
     nav{
         position: sticky;
+        font-size: calc(24pt + 1vw);
     }
 
     .menu-item{
