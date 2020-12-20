@@ -5,17 +5,17 @@ const currentTheme = localStorage.getItem("theme");
 
 let currentPath = window.location.pathname;
 let currentPage = document.querySelector(`a[href='${currentPath}']`);
-currentPage.classList.add("current-page");
-
-
+if(currentPage){currentPage.classList.add("current-page");}
 
 if (currentTheme == "dark") {
     document.body.classList.add("dark-theme");
     document.body.classList.remove("light-theme");
+    switcher.textContent = "Light Theme";
 }
 else{
     document.body.classList.remove("dark-theme");
     document.body.classList.add("light-theme");
+    switcher.textContent = "Dark Theme";
 }
 
 hamburgerBtn.addEventListener('click',function() {
@@ -33,7 +33,6 @@ switcher.addEventListener('click', function() {
     if(className == "dark-theme") {
         theme = "dark";
         this.textContent = "Light Theme";
-
     }
     else {
         theme = "light";
