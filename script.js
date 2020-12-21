@@ -2,9 +2,12 @@ const parser = new DOMParser();
 const switcher = document.querySelector(".theme-switcher");
 const hamburgerBtn = document.querySelector(".hamburger-icon");
 const currentTheme = localStorage.getItem("theme");
+const menu=document.querySelector(".menu");
 
 let currentPath = window.location.pathname;
 let currentPage = document.querySelector(`a[href='${currentPath}']`);
+let menuOpen = false;
+
 if(currentPage){currentPage.classList.add("current-page");}
 
 if (currentTheme == "dark") {
@@ -19,9 +22,30 @@ else{
 }
 
 hamburgerBtn.addEventListener('click',function() {
-   menu=document.querySelector(".menu");
-   menu.classList.toggle('visible');
-   hamburgerBtn.classList.toggle('open');
+    menu.classList.toggle('visible');
+    if(menuOpen){
+        menuOpen = false;
+    }
+    else{
+        menuOpen = true;
+    }
+    hamburgerBtn.classList.toggle('open');
+});
+
+document.addEventListener('click',function(evt) {
+    let targetElement = evt.target;
+
+        do {
+            if (targetElement == menu.parentNode) { // check if pressed nav
+                return;
+            }
+            // Go up the DOM
+            targetElement = targetElement.parentNode;
+            
+        } while (targetElement);
+
+        menu.classList.remove('visible');
+    
 });
 
 switcher.addEventListener('click', function() {
@@ -41,7 +65,7 @@ switcher.addEventListener('click', function() {
 
     localStorage.setItem("theme", theme);
 
-    console.log('current class name: ' + className);
+    console.log('current theme: ' + className);
 
 });
 
