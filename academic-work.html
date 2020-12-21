@@ -21,7 +21,7 @@ title: Work
 </div>
 
 <ul class="blog-list">
-  {% for {site.posts | where_exp: "post", "post.tags == 'work'"} in site.posts%}
+  {% for post in {site.posts | where_exp: "post", "post.tags == 'work'"}%}
   <div class="{{post.category}} blog-post">
     <a href="{{ post.url }}">
       <li>
