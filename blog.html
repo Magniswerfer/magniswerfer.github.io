@@ -6,11 +6,13 @@ title: Magnus' Blog
 <h1>Blog</h1>
 
 <div class="blog-navigation">
-  <div>Filter by category:</div>
+  <div class="blog-filter-text">Filter by category: <div class="blog-filter-toggle">&lt;</div></div>
+  <div class="blog-categories">
     <div class="blog-category" data-category="all">All</div>
     {% for category in site.categories %}
       <div class="blog-category" data-category="{{category[0]}}">{{category[0]}}</div>
     {% endfor %}  
+  </div>
 </div>
 
 <ul class="blog-list">

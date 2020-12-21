@@ -1,7 +1,14 @@
-blogCategories = document.querySelectorAll('.blog-category')
+const blogCategoryList = document.querySelectorAll('.blog-category')
+const blogFilterSelector = document.querySelector('.blog-filter-text')
 
+blogFilterSelector.addEventListener('click', function () {
+    let blogCategories = document.querySelector('.blog-categories')
+    let filterToggle = document.querySelector('.blog-filter-toggle')
+    blogCategories.classList.toggle('shown');
+    filterToggle.classList.toggle('open');
+});
 
-blogCategories.forEach(element => {
+blogCategoryList.forEach(element => {
     let category = element.dataset.category;
     element.addEventListener('click', function() {
         let blogList = document.querySelectorAll('.blog-post');

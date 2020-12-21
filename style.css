@@ -118,25 +118,28 @@ h4{
     font-size: calc(14pt);
 }
 
+/* BLOG STUFF */
+
+
+.blog-navigation{
+    display: flex;
+}
+
+.blog-filter-text{
+    color: var(--main);
+}
+
+.blog-filter-toggle{
+    color: var(--main);
+}
+
 .blog-list{
     list-style: none;
     padding-left: 0;
 }
 
-.blog-post.hidden{
-    display: none;
-}
-
-.blog-post:hover{
-    text-decoration: underline;
-}
-
-.blog-navigation{
-    font-size: large;
-    border: 2px solid var(--contrast);
-    padding: 10px;
+.blog-categories{
     display: flex;
-    flex-direction: row;
 }
 
 .blog-category{
@@ -146,6 +149,18 @@ h4{
 .blog-category:hover{
     text-decoration: underline;
     cursor: pointer;
+}
+
+.blog-category:active{
+    text-decoration: underline;
+}
+
+.blog-post.hidden{
+    display: none;
+}
+
+.blog-post:hover{
+    text-decoration: underline;
 }
 
 @media only screen and (max-width : 1199px) {
@@ -191,6 +206,46 @@ h4{
     .menu.visible{
         display: block;
     }
+
+    /* BLOG STUFF*/
+
+    .blog-navigation{
+        background-color: var(--contrast);
+        color: var(--main);
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blog-categories{
+        display: none;
+    }
+
+    .blog-categories.shown{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blog-category{
+        font-size: 14pt;
+        margin-top: 10px;
+        margin-left: 0px;
+        color: var(--main);
+    }
+
+    .blog-filter-text{
+        font-size: 14pt;
+        cursor: pointer;
+    }
+
+    .blog-filter-toggle{
+        float: right;
+    }
+
+    .blog-filter-toggle.open{
+        transform: rotate(-90deg);
+    }
+
 }
 
 /* Large Devices, Wide Screens */
@@ -226,4 +281,23 @@ h4{
         margin-top: 20px;
         margin-bottom: 20px;
     }
+
+
+    /*BLOG STUFF*/
+
+    .blog-navigation{
+        font-size: large;
+        border: 2px solid var(--contrast);
+        padding: 10px;
+        flex-direction: row;
+    }
+
+    .blog-filter-text{
+        color: var(--contrast);
+    }
+
+    .blog-filter-toggle{
+        display:none;
+    }
+
 }
