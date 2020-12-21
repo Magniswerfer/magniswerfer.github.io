@@ -5,13 +5,26 @@ title: Magnus' Blog
 
 <h1>Blog</h1>
 
-<ul>
+<div class="blog-navigation">
+  <div>Filter by category:</div>
+    <div class="blog-category" data-category="all">All</div>
+    {% for category in site.categories %}
+      <div class="blog-category" data-category="{{category[0]}}">{{category[0]}}</div>
+    {% endfor %}  
+</div>
+
+<ul class="blog-list">
     {% for post in site.posts %}
-    <a href="{{ post.url }}">
-      <li class="blog-post">
-        <h2>{{ post.title }}</h2>
-        {{ post.excerpt }}
-      </li>
-    </a>
+    <div class="{{post.category}} blog-post">
+      <a href="{{ post.url }}">
+        <li>
+          <h3>{{ post.title }}</h3>
+          {{post.date | date_to_string}}
+          {{ post.excerpt }}
+        </li>
+      </a>
+    </div>
     {% endfor %}
   </ul>
+
+  <script src="/blog.js"></script>
