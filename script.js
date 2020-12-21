@@ -8,7 +8,13 @@ let currentPath = window.location.pathname;
 let currentPage = document.querySelector(`a[href='${currentPath}']`);
 let menuOpen = false;
 
-if(currentPage){currentPage.classList.add("current-page");}
+if(currentPage){
+    currentPage.classList.add("current-page");
+}
+else{
+    currentPage = document.querySelector(`a[href='/index.html']`);
+    currentPage.classList.add("current-page");
+}
 
 if (currentTheme == "dark") {
     document.body.classList.add("dark-theme");
