@@ -3,6 +3,7 @@ const switcher = document.querySelector(".theme-switcher");
 const hamburgerBtn = document.querySelector(".hamburger-icon");
 const currentTheme = localStorage.getItem("theme");
 const menu=document.querySelector(".menu");
+let menuToggle = document.querySelector('.menu-toggle');
 
 let currentPath = window.location.pathname;
 let currentPage = document.querySelector(`a[href='${currentPath}']`);
@@ -28,7 +29,6 @@ else{
 }
 
 hamburgerBtn.addEventListener('click',function() {
-    let menuToggle = document.querySelector('.menu-toggle');
     
     menu.classList.toggle('visible');
     menuToggle.classList.toggle('open');
@@ -55,6 +55,7 @@ document.addEventListener('click',function(evt) {
         } while (targetElement);
 
         menu.classList.remove('visible');
+        menuToggle.classList.remove('open');
     
 });
 
