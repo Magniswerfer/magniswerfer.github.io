@@ -2,6 +2,7 @@
 layout: post
 author: Magnus
 category: Academic
+tags: blog
 ---
 
 A banana is an edible fruit – botanically a berry – produced by several kinds
