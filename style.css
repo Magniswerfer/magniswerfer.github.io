@@ -1,3 +1,20 @@
+/* MAIN STYLES */
+
+h1{
+    font-size: calc(48pt);
+}
+
+h2{
+    font-size: calc(36pt);
+}
+
+h3{
+    font-size: calc(24pt);
+}
+
+h4{
+    font-size: calc(14pt);
+}
 
 :root {
     --light: white;
@@ -49,6 +66,8 @@ a {
     text-decoration: inherit;
 }
 
+/*  NAVIGATION   */
+
 .nav-wrapper{
     background-color: var(--main);
     bottom: 0pt;
@@ -70,6 +89,11 @@ nav{
     
 }
 
+.menu-toggle{
+    display: none;
+    float: right;
+}
+
 .menu-item{
     color: var(--contrast);
     cursor: pointer;
@@ -80,7 +104,8 @@ nav{
 }
 
 .menu-item.theme-switcher{
-    text-decoration: none
+    text-decoration: none;
+    margin-right: 0px;
 }
 
 .current-page{
@@ -91,7 +116,7 @@ nav{
     display: none;
     color: var(--contrast);
     font-size: calc(24pt + 1vw);
-    text-align: center;
+    
 }
 
 .hamburger-icon:hover{
@@ -102,21 +127,6 @@ nav{
     text-decoration: underline;
 }
 
-h1{
-    font-size: calc(48pt);
-}
-
-h2{
-    font-size: calc(36pt);
-}
-
-h3{
-    font-size: calc(24pt);
-}
-
-h4{
-    font-size: calc(14pt);
-}
 
 /* BLOG STUFF */
 
@@ -196,6 +206,15 @@ h4{
     .hamburger-icon{
         display: block;
         color: var(--main);
+    }
+
+    .menu-toggle{
+        display: block;
+        color: var(--main);
+    }
+
+    .menu-toggle.open{
+        transform: rotate(-90deg);
     }
 
     .menu{
@@ -279,6 +298,7 @@ h4{
     .menu-item.theme-switcher{
         display: inline;
         margin-left: auto;
+        margin-right: 0px;
     }
 
     h1, h2, h3, h4{

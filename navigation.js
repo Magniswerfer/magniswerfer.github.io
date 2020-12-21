@@ -28,7 +28,11 @@ else{
 }
 
 hamburgerBtn.addEventListener('click',function() {
+    let menuToggle = document.querySelector('.menu-toggle');
+    
     menu.classList.toggle('visible');
+    menuToggle.classList.toggle('open');
+
     if(menuOpen){
         menuOpen = false;
     }
