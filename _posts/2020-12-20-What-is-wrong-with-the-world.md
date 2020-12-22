@@ -1,6 +1,7 @@
 ---
 layout: post
 author: Magnus
+type: blog
 category: Academic
 tags: blog
 ---

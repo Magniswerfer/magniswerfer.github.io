@@ -1,36 +1,9 @@
 ---
 layout: default
 title: Work
+type: work
 ---
 
-<h1>Work</h1>
+<h1>{{page.title}}</h1>
 
-<div class="blog-navigation">
-  <div class="blog-filter-text">
-    Filter by category:
-    <div class="blog-filter-toggle">&lt;</div>
-  </div>
-  <div class="blog-categories">
-    <div class="blog-category" data-category="all">All</div>
-    {% for category in site.work-category %}
-    <div class="blog-category" data-category="{{category[0]}}">
-      {{category[0]}}
-    </div>
-    {% endfor %}
-  </div>
-</div>
-
-<ul class="blog-list">
-  {% for post in site.posts%} {% page.tags contains "work"%}
-  <div class="{{post.category}} blog-post">
-    <a href="{{ post.url }}">
-      <li>
-        <h3>{{ post.title }}</h3>
-        {{post.date | date_to_string}} {{ post.excerpt }}
-      </li>
-    </a>
-  </div>
-  {% endif %} {% endfor %}
-</ul>
-
-<script src="/blog.js"></script>
+{% include blog-module.html type-to-show = page.type %}

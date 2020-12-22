@@ -1,7 +1,8 @@
 ---
 layout: post
 author: Magnus H. Kaspersen
-work-category: Computational Thinking
+type: work
+category: Computational Thinking
 tags: work
 ---
 
