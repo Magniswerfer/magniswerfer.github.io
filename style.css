@@ -26,6 +26,10 @@ a {
     text-decoration: inherit;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 a[href*="//"]:not([href*="magniswerfer.github.io"]) {
     /* external link styles, use :before or :after if you want! */
     color: blue;
