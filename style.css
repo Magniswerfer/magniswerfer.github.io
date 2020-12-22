@@ -1,5 +1,10 @@
 /* MAIN STYLES */
 
+h1, h2, h3, h4, p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 h1{
     font-size: calc(48pt);
 }
@@ -188,6 +193,10 @@ nav{
     margin-right: 10px;
 }
 
+.blog-post-byline{
+    font-size: small;
+}
+
 @media only screen and (max-width : 849px) {
 
     .wrapper{
@@ -325,12 +334,6 @@ nav{
     .menu-item-separator{
         display: block;
     }
-
-    h1, h2, h3, h4{
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
 
     /*BLOG STUFF*/
 
