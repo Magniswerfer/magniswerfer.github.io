@@ -10,6 +10,8 @@ blogFilterSelector.addEventListener('click', function () {
 
 blogCategoryList.forEach(element => {
     let category = element.dataset.category;
+    category = category.replace(" ", "-");
+    
     element.addEventListener('click', function() {
         let blogList = document.querySelectorAll('.blog-post');
         blogList.forEach(function(currentValue){
