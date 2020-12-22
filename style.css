@@ -34,7 +34,7 @@ a[href*="//"]:not([href*="magniswerfer.github.io"]) {
 
 *{
     color: var(--contrast);
-    font-family: monospace;
+    font-family: "Consolas";
     
 }
 
