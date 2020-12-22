@@ -15,6 +15,7 @@
                 {% assign categories = categories | push: post.category %}
             {% endif %}
         {% endfor %}
+        {% assign categories = categories | uniq %}
         {% for category in categories %}
           <div class="blog-category-separator">|</div>
           <div class="blog-category" data-category="{{category}}">

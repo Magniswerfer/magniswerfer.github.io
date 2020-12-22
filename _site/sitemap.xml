@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>/computational%20thinking/2020/05/02/VotestratesML.html</loc>
+<lastmod>2020-05-02T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>/computational%20thinking/2020/07/14/Card-based-machine-learning-workshop.html</loc>
+<lastmod>2020-07-14T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>/computational%20thinking/2020/12/09/the-machine-learning-machine.html</loc>
+<lastmod>2020-12-09T00:00:00+01:00</lastmod>
+</url>
+<url>
 <loc>/tech/gaming/2020/12/18/kiwi.html</loc>
 <lastmod>2020-12-18T00:00:00+01:00</lastmod>
 </url>
@@ -11,10 +23,6 @@
 <url>
 <loc>/academic/2020/12/20/What-is-wrong-with-the-world.html</loc>
 <lastmod>2020-12-20T00:00:00+01:00</lastmod>
-</url>
-<url>
-<loc>/computational%20thinking/2020/12/21/the-machine-learning-machine.html</loc>
-<lastmod>2020-12-21T00:00:00+01:00</lastmod>
 </url>
 <url>
 <loc>/about.html</loc>
