@@ -3,24 +3,25 @@
 {% assign relevant-posts = site.posts | where: "type", include.type-to-show %}
 
 <div class="blog-navigation">
-  <div class="blog-filter-text">
-    Filter by category:
-    <div class="blog-filter-toggle">&lt;</div>
-  </div>
-  <div class="blog-categories">
-    <div class="blog-category" data-category="all">All</div>
-    {% assign categories = "" | split: ',' %}
-    {% for post in relevant-posts %}
-      {% if post.type contains include.type-to-show %}
-        {% assign categories = categories | push: post.category %}
-      {% endif %}
-    {% endfor %}
-    {% for category in categories %}
-      <div class="blog-category" data-category="{{category}}">
+    <div class="blog-filter-text">
+        Filter by category:
+        <div class="blog-filter-toggle">&lt;</div>
+    </div>
+    <div class="blog-categories">
+        <div class="blog-category" data-category="all">All</div>
+        {% assign categories = "" | split: ',' %}
+        {% for post in relevant-posts %}
+            {% if post.type contains include.type-to-show %}
+                {% assign categories = categories | push: post.category %}
+            {% endif %}
+        {% endfor %}
+        {% for category in categories %}
+        &nbsp;| 
+        <div class="blog-category" data-category="{{category}}">
         {{category}}
-      </div>
+        </div>
     {% endfor %}
-  </div>
+    </div>
 </div>
 
 <ul class="blog-list">
