@@ -34,7 +34,7 @@ a[href*="//"]:not([href*="magniswerfer.github.io"]) {
 
 *{
     color: var(--contrast);
-    font-family: "Consolas";
+    font-family: "Courier New";
     
 }
 
@@ -179,7 +179,7 @@ nav{
     text-decoration: underline;
 }
 
-@media only screen and (max-width : 1199px) {
+@media only screen and (max-width : 849px) {
 
     .wrapper{
         width: 100vw;
@@ -274,10 +274,14 @@ nav{
         transform: rotate(-90deg);
     }
 
+    .blog-category-separator{
+        display:none;
+    }
+
 }
 
 /* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
+@media only screen and (min-width : 850px) {
 
     nav{
         position: sticky;
@@ -327,6 +331,10 @@ nav{
 
     .blog-filter-toggle{
         display:none;
+    }
+
+    .blog-category-separator{
+        display:block;
     }
 
 }
