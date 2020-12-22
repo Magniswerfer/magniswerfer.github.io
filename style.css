@@ -114,6 +114,13 @@ nav{
     margin-right: 0px;
 }
 
+.menu-item-separator{
+    color: var(--contrast);
+    font-size: large;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
 .current-page{
     text-decoration: underline;
 }
@@ -143,6 +150,7 @@ nav{
 
 .blog-filter-text{
     color: var(--main);
+    margin-right: 10px;
 }
 
 .blog-filter-toggle{
@@ -156,10 +164,6 @@ nav{
 
 .blog-categories{
     display: flex;
-}
-
-.blog-category{
-    margin-left: 10px;
 }
 
 .blog-category:hover{
@@ -177,6 +181,11 @@ nav{
 
 .blog-post:hover{
     text-decoration: underline;
+}
+
+.blog-category-separator{
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 @media only screen and (max-width : 849px) {
@@ -229,6 +238,10 @@ nav{
 
     .menu-item{
         color: var(--main);
+    }
+
+    .menu-item-separator{
+        display: none;
     }
 
     .menu.visible{
@@ -290,7 +303,6 @@ nav{
 
     .menu-item{
         font-size: large;
-        margin-right: 15px;
     }
 
     .content{
@@ -308,6 +320,10 @@ nav{
         display: inline;
         margin-left: auto;
         margin-right: 0px;
+    }
+
+    .menu-item-separator{
+        display: block;
     }
 
     h1, h2, h3, h4{
