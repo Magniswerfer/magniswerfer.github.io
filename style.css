@@ -93,7 +93,7 @@ nav{
     position: sticky;
     top: 0;
     background-color: var(--main);
-    border: 2px solid var(--contrast);
+    border-bottom: 2px solid var(--contrast);
 }
 
 .menu{
