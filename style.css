@@ -48,8 +48,8 @@ a[href*="//"]:not([href*="magniswerfer.github.io"]), a[href*="mailto:"]{
 }
 
 .dark-theme {
-    --main: var(--dark);
-    --contrast: var(--light);
+    --main: var(--light); /* THIS IS A HACKY SOLUTION!*/
+    --contrast: var(--dark);
 }
   
 .light-theme {
