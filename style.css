@@ -149,7 +149,6 @@ nav{
     text-decoration: underline;
 }
 
-
 /* BLOG STUFF */
 
 
@@ -360,4 +359,14 @@ nav{
         display:block;
     }
 
+}
+
+/* Other*/
+
+.notice{
+    padding: 15px 0px 15px 0px;;
+    margin: 15px 0px 15px 0px;
+    text-align: center;
+    background-color: var(--contrast);
+    color: var(--main);
 }
