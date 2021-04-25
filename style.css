@@ -48,8 +48,8 @@ a[href*="//"]:not([href*="magniswerfer.github.io"]), a[href*="mailto:"]{
 }
 
 .dark-theme {
-    --main: var(--light); /* THIS IS A HACKY SOLUTION!*/
-    --contrast: var(--dark);
+    --main: var(--dark);
+    --contrast: var(--light);
 }
   
 .light-theme {
@@ -86,7 +86,7 @@ body {
 .nav-wrapper{
     background-color: var(--main);
     bottom: 0pt;
-    padding: 5px;
+    padding-top: 5px;
 }
 
 nav{
@@ -101,7 +101,6 @@ nav{
     display: flex;
     flex-direction: row;
     padding: 10px 10px 10px 10px;
-    
 }
 
 .menu-toggle{
@@ -199,6 +198,14 @@ nav{
 .blog-post-byline{
     font-size: small;
 }
+
+    /* Other*/
+
+    .notice{
+        text-align: center;
+        background-color: var(--contrast);
+        color: var(--main);
+    }
 
 @media only screen and (max-width : 849px) {
 
@@ -303,6 +310,10 @@ nav{
         display:none;
     }
 
+    .notice{
+        padding: 15px 0px 15px 0px;
+        margin: 15px 15px 15px 15px;
+    }
 }
 
 /* Large Devices, Wide Screens */
@@ -359,14 +370,9 @@ nav{
         display:block;
     }
 
-}
+    .notice{
+        padding: 15px 0px 15px 0px;;
+        margin: 15px 0px 15px 0px;
+    }
 
-/* Other*/
-
-.notice{
-    padding: 15px 0px 15px 0px;;
-    margin: 15px 0px 15px 0px;
-    text-align: center;
-    background-color: var(--contrast);
-    color: var(--main);
 }
