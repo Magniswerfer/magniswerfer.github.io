@@ -1,5 +1,23 @@
+body { display: flex; flex-direction: row; justify-content: center; height: 900px; background-color: lightgray; }
+
+h1 { margin-block-start: 0.2em; margin-block-end: 0.2em; width: 100%; }
+
+p { margin-block-start: 0.5em; margin-block-end: 0.5em; }
+
+.wrapper { display: flex; flex-direction: column; background-color: white; padding: 0.5em; width: 60%; }
+
 .current { color: green; }
 
 .byline { font-style: italic; }
+
+.nav-menu { flex-direction: row; padding-bottom: 0.5em; border-bottom-style: solid; border-bottom-width: 1px; }
+
+.nav-menu-item { padding-right: 0.15em; }
+
+.footer { display: flex; border-top-style: solid; border-top-width: 1px; height: 1em; width: 100%; align-self: flex-end; }
+
+.profile-pic { float: right; margin: 0 0 0.5em 0.5em; align-self: center; }
+
+.index-content { display: flex; flex-direction: row; }
 
 /*# sourceMappingURL=styles.css.map */
