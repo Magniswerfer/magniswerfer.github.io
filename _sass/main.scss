@@ -1,36 +1,36 @@
 body{
+  height: 100%;
+  background-color: lightgray;
+  margin: 0;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height:900px;
-  background-color: lightgray;
 }
 
-h1{
-  margin-block-start: 0.2em;
-  margin-block-end: 0.2em;
-  width: 100%;
-}
-
-p{
-  margin-block-start: 0.5em;
-  margin-block-end: 0.5em;
-}
-
-.wrapper{
+.default-wrapper{
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  margin: 0.5em;
   background-color: white;
-  padding: 0.5em;
+  min-height: 900px;
   width: 60%;
+  position: relative;
 }
 
-.current {
-  color: green;
-  }
-
-.byline{
-  font-style: italic;
+.footer{
+  color: lightgray;
+  font-size: small;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100% -1em;
+  height: 1em;
+  margin: 0 0.5em 0.5em 0.5em;
+  padding-top: 0.5em;
+  border-top-color: black;
+  border-top-style: solid;
+  border-top-width: 1px;
 }
 
 .nav-menu{
@@ -44,24 +44,90 @@ p{
   padding-right: 0.15em;
 }
 
-.footer{
+.default-content{
   display: flex;
-  border-top-style: solid;
-  border-top-width: 1px;
-  height: 1em;
+  flex-direction: column;
+  padding: 0.5em 0.5em 2em 0.5em;
+  
+}
+
+h1{
+  margin-block-start: 0.2em;
+  margin-block-end: 0.2em;
   width: 100%;
-  align-self: flex-end;
+}
+
+p{
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+
+#current-page {
+  color: grey;
+  }
+
+a:hover{
+  color: lightblue;
+}
+
+a:active{
+  color: lightblue;
+  text-decoration: none;
+}
+
+a:focus{
+  border-style: solid;
+  border-color: yellow;
+  border-width: 1px;
+}
+
+.byline{
+  font-style: italic;
 }
 
 // Page specific things below
 
-.profile-pic{
-float: right;
-margin: 0 0 0.5em 0.5em;
+.center-img{
+margin: 1em 0 1em 0;
 align-self: center;
 }
 
-.index-content{
-  display: flex;
-  flex-direction: row;
+@media only screen and (max-width: 600px) {
+  .default-wrapper {
+    width: 100%;
+  }
+
+  .nav-menu{
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 0.5em;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+  }
+
+  .footer{
+    font-size: medium;
+  }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1200px) {
+  .default-wrapper {
+    width: 80%;
+    min-height: 900px;
+  }
+
+  .nav-menu{
+    font-size:larger;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0.5em;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+  }
+
+  .footer{
+    font-size: medium;
+  }
 }
