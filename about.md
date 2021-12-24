@@ -51,7 +51,7 @@ This page tells you a little bit about me. I'll ad more interesting stuff than m
 *2016 - 2017*
 - Organisation managing the introductory week for new students at the IT Product Development Bachelor’s Programme
 
-### Organizer and Responsible for Logistics, AUHAck
+### Organizer and Responsible for Logistics, AUHack
 *2016 - 2017*
 - Denmark's largest hackathon
 
