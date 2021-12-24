@@ -92,6 +92,12 @@ margin: 1em 0 1em 0;
 align-self: center;
 }
 
+.profile-pic{
+  width: 250px;
+  height: 50%;
+  object-fit: cover;
+}
+
 @media only screen and (max-width: 749px) {
   .default-wrapper {
     width: 100%;
