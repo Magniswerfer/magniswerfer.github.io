@@ -92,14 +92,15 @@ a:focus{
 
 // Page specific things below
 
-.center-img{
-margin: 1em 0 1em 0;
+img{
+margin: 1em 0a 1em 0;
 align-self: center;
+width: 60%;
 }
 
 .profile-pic{
-  width: 250px;
-  height: 50%;
+  width: 40%;
+  // height: 50%;
   object-fit: cover;
 }
 
