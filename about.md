@@ -9,7 +9,7 @@ This page tells you a little bit about me. I'll ad more interesting stuff than m
 ## Experience
 
 ### PhD Fellow, Aarhus University
-*November 2019 - now *
+*November 2019 - now*
 - Researching how to design learning tools for Machine Learning that empowers students in critically engaging with it in their everyday lives.
 
 ### Research Assistant, Aarhus University
