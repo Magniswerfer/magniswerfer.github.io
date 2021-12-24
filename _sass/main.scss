@@ -41,7 +41,7 @@ body{
 }
 
 .nav-menu-item{
-  padding-right: 0.15em;
+  padding-right: 0.2em;
 }
 
 .default-content{
@@ -92,7 +92,7 @@ margin: 1em 0 1em 0;
 align-self: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 749px) {
   .default-wrapper {
     width: 100%;
   }
@@ -101,10 +101,13 @@ align-self: center;
     font-size: larger;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     padding-bottom: 0.5em;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+  }
+
+  .nav-menu-item{
+    padding-right: 0.7em;
   }
 
   .footer{
@@ -122,9 +125,13 @@ align-self: center;
     font-size:larger;
     display: flex;
     flex-direction: row;
-    padding-bottom: 0.5em;
+    padding-bottom: 0.7em;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+  }
+
+  .nav-menu-item{
+    padding-right: 0.5em;
   }
 
   .footer{
