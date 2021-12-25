@@ -4,7 +4,7 @@ body { height: 100%; background-color: lightgray; margin: 0; display: flex; flex
 
 .footer { color: lightgray; font-size: small; display: flex; flex-direction: row; justify-content: space-between; width: 100% -1em; height: 1em; margin: 0 0.5em 0.5em 0.5em; padding-top: 0.5em; border-top-color: black; border-top-style: solid; border-top-width: 1px; }
 
-.nav-menu { flex-direction: row; padding-bottom: 0.5em; border-bottom-style: solid; border-bottom-width: 1px; }
+.nav-menu { flex-direction: row; display: flex; padding-bottom: 0.5em; border-bottom-style: solid; border-bottom-width: 1px; }
 
 .nav-menu-item { padding-right: 0.5em; }
 
