@@ -35,13 +35,14 @@ body{
 
 .nav-menu{
   flex-direction: row;
+  
   padding-bottom: 0.5em;
   border-bottom-style: solid;
   border-bottom-width: 1px;
 }
 
 .nav-menu-item{
-  padding-right: 0.2em;
+  padding-right: 0.5em;
 }
 
 .default-content{
@@ -90,18 +91,58 @@ a:focus{
   font-style: italic;
 }
 
-// Page specific things below
-
 img{
-margin: 1em 0a 1em 0;
-align-self: center;
-width: 60%;
+  padding: 0.5em 0 0.6em 0;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+p > div.img-container, div.img-container{
+  text-align: center;
+}
+
+// Page specific things below
+
 .profile-pic{
+  padding: 1em 0 1em 0;
   width: 40%;
   // height: 50%;
   object-fit: cover;
+}
+
+.dont-break-out {
+
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+
+}
+
+@media only screen and (max-width: 1200px) {
+  .default-wrapper {
+    width: 80%;
+  }
+
+  .nav-menu{
+    font-size:larger;
+  }
+
+  .footer{
+    font-size: medium;
+  }
 }
 
 @media only screen and (max-width: 749px) {
@@ -110,43 +151,38 @@ width: 60%;
   }
 
   .nav-menu{
-    font-size: larger;
+    justify-content: space-evenly;
+  }
+
+  .nav-menu-item{
+    padding-right: 0em;
+  }
+
+  .footer{
+    font-size: small;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  .default-wrapper {
+    width: 100%;
+  }
+
+  .nav-menu{
+    font-size: 1rem;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     padding-bottom: 0.5em;
     border-bottom-style: solid;
     border-bottom-width: 1px;
   }
 
   .nav-menu-item{
-    padding-right: 0.7em;
+    padding-right: 0em;
   }
 
   .footer{
-    font-size: medium;
-  }
-}
-
-@media only screen and (min-width: 750px) and (max-width: 1200px) {
-  .default-wrapper {
-    width: 80%;
-    min-height: 900px;
-  }
-
-  .nav-menu{
-    font-size:larger;
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 0.7em;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-  }
-
-  .nav-menu-item{
-    padding-right: 0.5em;
-  }
-
-  .footer{
-    font-size: medium;
+    font-size: small;
   }
 }
