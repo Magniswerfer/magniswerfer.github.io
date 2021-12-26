@@ -1,0 +1,20 @@
+---
+layout: default
+title: Events
+---
+<h1>Events</h1>
+
+<p>Hi all, here is a list of events, that I'm hosting, just for reference... Ordered by when the event is.</p>
+
+{% for category in site.categories %}
+  <ul>
+    {% for post in category[1] %}
+      {% if category[0] == "events" %}
+        <li>
+          <h2><a href="{{ post.url }}">{{ post.title}} - {{post.event-date}}</a></h2>
+          {{ post.excerpt }}
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+{% endfor %}

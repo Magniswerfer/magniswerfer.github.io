@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/2021/12/02/nerf-build.html</loc>
+<loc>http://localhost:4000/blog/2021/12/02/nerf-build.html</loc>
 <lastmod>2021-12-02T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/events/2021/12/26/julefrokost-p%C3%A5-mols-i-roslev.html</loc>
+<lastmod>2021-12-26T00:00:00+01:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/about.html</loc>
@@ -12,6 +16,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/contact.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/events.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
