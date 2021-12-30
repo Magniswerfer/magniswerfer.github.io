@@ -23,4 +23,37 @@ Der er selvfølgelig også en video invitation! Den er her, juhuuu!
 
 ## Mad
 
-<div class="padlet-embed" style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4"><p style="padding:0;margin:0"><iframe src="https://padlet.com/embed/moft8a2d03kmx8ja" frameborder="0" allow="camera;microphone;geolocation" style="width:100%;height:608px;display:block;padding:0;margin:0"></iframe></p><div style="padding:8px;text-align:right;margin:0;"><a href="https://padlet.com?ref=embed" style="padding:0;margin:0;border:none;display:block;line-height:1;height:16px" target="_blank"><img src="https://padlet.net/embeds/made_with_padlet.png" width="86" height="16" style="padding:0;margin:0;background:none;border:none;display:inline;box-shadow:none" alt="Made with Padlet"></a></div></div>
+Her er en liste af mad, som skal tages med! Man må meget gerne skrive sig på i Padlet'en nedenunder, når man ved hvad man vil have med! (Ja, det havde været nemmere at koordinere på Facebook det her, men sådan er livet jo ligesom, hæhæ).
+
+- Øl
+- Snaps
+- Sild
+- Karrysalat (IKKE KARRYSILD)
+  - Det er den evige diskussion men det rigtige er karrysalat og kryddersild og man kan også godt skære nogle løgringe til og komme dem ovenpå, hvis man nu har lyst til det.
+- Leverpostej
+- Risalamande
+- Rugbrød
+- Smør
+- Mere eller mindre hvidt brød
+- Snacks
+- Kirsebærsovs
+- Pasta Carbonara
+  - Det er jo en lidt kontroversiel ret, men den skal jo laves og den plejer jo også at blive spist kan man sige.
+- Slik
+- Brunede kartofler
+- Frikadeller på den ene eller den anden måde
+- Kartoffelsalat
+- Æg 
+- Mjød
+- Rødkål
+- Vegetariske sager
+  - Amalie må fx godt tage falafler med selvom det måske ikke er så julet.
+- En form for steg
+- En and?
+- Rodfrugter
+- Postej
+
+### Padlet
+Skriv jer på herunder :) 
+
+<div class="iframe"><iframe class ="embedded-content padlet-iframe" src="https://padlet.com/embed/moft8a2d03kmx8ja" frameborder="0"></iframe></div>
