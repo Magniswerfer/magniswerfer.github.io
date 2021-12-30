@@ -7,7 +7,7 @@ Hej molboer++! Til januar (den 15.) er der julefrokost på Mols, og nu hvor jeg 
 
 Lea og jeg tager derud allerede den 14., så man må meget gerne komme dér 😊 Ellers kan man komme i løbet af den 15. - bare når det passer én. Man kan komme dertil med tog, og stige af i Skive. Hvis man gør dét, så kan man fx skrive til mig (på 30140807) og så kommer jeg og henter en i Skive. Hvis man koordinerer det lidt, så behøver jeg ikke køre flere gange!
 
-I forhold til mad, så har jeg lavet en doodle, hvor I kan skrive på, hvad I tager med. Det er her!
+I kan skrive jer på mad nederst på siden!
 
 ## Find vej!
 
