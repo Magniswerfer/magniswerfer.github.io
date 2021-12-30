@@ -72,6 +72,40 @@
 <p>Hope you enjoyed this small post. I’ll try to make sure to post whenever I build something 😊</p>
 
 
+<section class="comments">
+    
+  
+    <div>
+      <h2>Leave a Comment</h2>
+      <!-- _includes/comment-form.html -->
+<form method="POST" action="" class="comment-form">
+    <input
+      name="options[redirect]"
+      type="hidden"
+      value="http://localhost:4000/blog/2021/12/02/nerf-build.html"
+    />
+    <input name="options[slug]" type="hidden" value="nerf-build" />
+  
+    <textarea
+      class="comment-message"
+      name="fields[message]"
+      placeholder="Comment (markdown accepted)"
+      required
+    ></textarea>
+    <div class="comment-bottom">
+      <input
+        class="comment-name"
+        name="fields[name]"
+        type="text"
+        placeholder="Name"
+        required
+      />
+      <button class="comment-submit" type="submit">SEND</button>
+    </div>
+  </form>
+    </div>
+  </section>
+
       </div>
       <div class="footer">
           <div><a href="/contact">Contact me</a></div>
