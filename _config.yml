@@ -3,4 +3,4 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-staticman_url: https://http://magnushoholt-comments.herokuapp.com/v3/entry/github/magniswerfer/magniswerfer.github.io/main/comments
+staticman_url: https://magnushoholt-comments.herokuapp.com/v3/entry/github/magniswerfer/magniswerfer.github.io/main/comments
