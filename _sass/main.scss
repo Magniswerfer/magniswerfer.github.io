@@ -189,6 +189,10 @@ p > div.img-container, div.img-container{
     height: 200px;
     margin: 1em 0 1em 0;
   }
+
+  .padlet-iframe{
+    height: 608px;
+  }
 }
 
 @media only screen and (max-width: 374px) {
@@ -212,5 +216,9 @@ p > div.img-container, div.img-container{
 
   .footer{
     font-size: small;
+  }
+
+  .padlet-iframe{
+    height: 608px;
   }
 }
