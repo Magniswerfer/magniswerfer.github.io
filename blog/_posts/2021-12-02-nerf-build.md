@@ -1,5 +1,6 @@
 ---
 layout: post
+tag: personal
 ---
 Recently, I've discovered my inner (non-professional) maker, and it took customizing a Nerf-gun to do it!
 
