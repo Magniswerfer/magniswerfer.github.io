@@ -8,6 +8,10 @@ This page tells you a little bit about me. I'll ad more interesting stuff than m
 
 ## Experience
 
+### Visiting Doctoral Student, Teachers College, Columbia University
+*February 2022 - now*
+- Visiting the [Transformative Learning Technologies Lab](tltlab.org) at Teachers College, Columbia University. Hosted by Prof. Paulo Blikstein. Designing and writing about cool stuff.
+
 ### PhD Fellow, Aarhus University
 *November 2019 - now*
 - Researching how to design learning tools for Machine Learning that empowers students in critically engaging with it in their everyday lives.
