@@ -22,15 +22,15 @@ title: Home
   </head>
   <body>
     <div class="default-wrapper">
+      {% include navigation.html %}
       <div class="default-content">
-        {% include navigation.html %}
+        
         {{ content }}
 
       </div>
-      <div class="footer">
-          <div><a href="/contact">Contact me</a></div>
-          <div>&copy; Magnus Høholt Kaspersen 2021</div>
-      </div>
     </div>
+    <div class="footer">
+      <div>&copy; Magnus Høholt Kaspersen 2021</div>
+  </div>
   </body>
 </html>

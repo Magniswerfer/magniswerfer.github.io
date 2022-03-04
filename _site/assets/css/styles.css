@@ -1,8 +1,8 @@
-body { height: 100%; background-color: lightgray; margin: 0; display: flex; flex-direction: row; justify-content: center; }
+body { height: 100%; margin: 0; display: flex; flex-direction: row; justify-content: center; }
 
-.default-wrapper { display: flex; flex-direction: column; justify-content: space-between; margin: 0.5em; background-color: white; min-height: 900px; width: 60%; position: relative; }
+.default-wrapper { display: flex; flex-direction: column; justify-content: space-between; margin: 0.5em; background-color: white; width: 60%; position: relative; }
 
-.footer { color: lightgray; font-size: small; display: flex; flex-direction: row; justify-content: space-between; width: 100% -1em; height: 1em; margin: 0 0.5em 0.5em 0.5em; padding-top: 0.5em; border-top-color: black; border-top-style: solid; border-top-width: 1px; }
+.footer { position: fixed; z-index: 1000; bottom: 0; font-size: smaller; display: flex; flex-direction: row; justify-content: center; width: 100%; background-color: white; }
 
 .nav-menu { flex-direction: row; display: flex; padding-bottom: 0.5em; border-bottom-style: solid; border-bottom-width: 1px; }
 
