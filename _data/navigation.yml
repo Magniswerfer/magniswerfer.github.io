@@ -1,10 +1,11 @@
 - name: Home
   link: /
-
-- name: Publications
-  link: /publications.html
+- name: Photography
+  link: /photography.html
 - name: Blog
   link: /blog.html
+- name: Publications
+  link: /publications.html
 - name: About
   link: /about.html
 - name: Contact

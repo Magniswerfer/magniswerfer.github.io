@@ -6,6 +6,19 @@ body{
   justify-content: center;
 }
 
+a:hover{
+  color: lightblue;
+}
+
+a:active{
+  color: lightblue;
+  text-decoration: none;
+}
+
+#current-page {
+  color: black;
+  }
+
 .default-wrapper{
   display: flex;
   flex-direction: column;
@@ -28,13 +41,25 @@ body{
   background-color: white;
 }
 
-.nav-menu{
-  flex-direction: row;
-  display: flex;
-  padding-bottom: 0.5em;
+/* [ON BIG SCREEN] */
+/* (A) WRAPPER */
+#hamnav {
+  width: 100%;
   border-bottom-style: solid;
   border-bottom-width: 1px;
 }
+
+/* (B) HORIZONTAL MENU ITEMS */
+#hamitems { display: flex; }
+#hamitems a {
+  flex-direction: row;
+  display: flex;
+  padding-bottom: 0.5em;
+
+}
+
+/* (C) HIDE HAMBURGER */
+#hamnav label, #hamburger { display: none; }
 
 .nav-menu-item{
   padding-right: 0.5em;
@@ -42,9 +67,7 @@ body{
 
 .default-content{
   display: flex;
-  flex-direction: column;
-  padding: 0.5em 0.5em 2em 0.5em;
-  
+  flex-direction: column;  
 }
 
 h1, h2, h3{
@@ -61,25 +84,6 @@ ul{
 p{
   margin-block-start: 0.5em;
   margin-block-end: 0.5em;
-}
-
-#current-page {
-  color: grey;
-  }
-
-a:hover{
-  color: lightblue;
-}
-
-a:active{
-  color: lightblue;
-  text-decoration: none;
-}
-
-a:focus{
-  border-style: solid;
-  border-color: yellow;
-  border-width: 1px;
 }
 
 .byline{
@@ -190,19 +194,47 @@ p > div.img-container, div.img-container{
   }
 }
 
-@media only screen and (max-width: 374px) {
+@media only screen and (max-width: 749px) {
   .default-wrapper {
     width: 100%;
   }
 
+    #hamnav {
+      border: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* (A) BREAK INTO VERTICAL MENU */
+    #hamitems a {
+      box-sizing: border-box;
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+   
+    /* (B) SHOW HAMBURGER ICON */
+    #hamnav label { 
+      width: 100%;
+      display: flex;
+      justify-content: center; 
+    }
+  
+    /* (C) TOGGLE SHOW/HIDE MENU */
+    #hamitems {
+      display: none; 
+      padding-top: 1em;
+      }
+    #hamnav input:checked ~ #hamitems { display: block; }
+
   .nav-menu{
     font-size: 1rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     padding-bottom: 0.5em;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
+    border-bottom-style: none;
   }
 
   .nav-menu-item{
