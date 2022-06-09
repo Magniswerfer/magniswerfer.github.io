@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: event
 event-date: "January 15th, 2022"
 ---
 
