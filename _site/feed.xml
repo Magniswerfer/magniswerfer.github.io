@@ -1,125 +1,178 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-03-03T23:04:54-05:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">First Two Weeks Abroad</title><link href="http://localhost:4000/blog/2022/03/02/first-two-weeks-abroad.html" rel="alternate" type="text/html" title="First Two Weeks Abroad" /><published>2022-03-02T00:00:00-05:00</published><updated>2022-03-02T00:00:00-05:00</updated><id>http://localhost:4000/blog/2022/03/02/first-two-weeks-abroad</id><content type="html" xml:base="http://localhost:4000/blog/2022/03/02/first-two-weeks-abroad.html">&lt;p&gt;I am writing this blog post in New York City. How crazy is that?&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-07-12T13:26:54+02:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">ml-machine.org</title><link href="http://localhost:4000/projects/2022/06/01/ml-machine.org.html" rel="alternate" type="text/html" title="ml-machine.org" /><published>2022-06-01T00:00:00+02:00</published><updated>2022-06-01T00:00:00+02:00</updated><id>http://localhost:4000/projects/2022/06/01/ml-machine.org</id><content type="html" xml:base="http://localhost:4000/projects/2022/06/01/ml-machine.org.html"><![CDATA[<p>In order to let students explore how ML is embedded into our infrastructure, we designed <a href="https://www.ml-machine.org">ml-machine.org</a>, an educational tool for creating ML models with the <a href="https://www.microbit.org/">BBC micro:bit</a>, and incorporating them into interactive systems, thus making ML a design material. Through an in-situ pilot study in an 8th grade classroom we demonstrates that students were able to redesign everyday objects around the possibilities and limitations imposed by ML, but that they struggled to understand more advanced parts of ML such as data representation.</p>
 
-&lt;div class=&quot;img-container&quot;&gt;&lt;img class=&quot;center-img&quot; src=&quot;/assets/images/NYC/arrival.jpeg&quot; alt=&quot;Arriving in NYC&quot; /&gt;&lt;/div&gt;</content><author><name></name></author><category term="blog" /><category term="work" /><summary type="html">I am writing this blog post in New York City. How crazy is that?</summary></entry><entry><title type="html">My Personal Research Manifesto</title><link href="http://localhost:4000/blog/2022/01/06/my-personal-research-manifesto.html" rel="alternate" type="text/html" title="My Personal Research Manifesto" /><published>2022-01-06T00:00:00-05:00</published><updated>2022-01-06T00:00:00-05:00</updated><id>http://localhost:4000/blog/2022/01/06/my-personal-research-manifesto</id><content type="html" xml:base="http://localhost:4000/blog/2022/01/06/my-personal-research-manifesto.html">&lt;p&gt;I am not my research. I am not just a researcher. I am priviliged. I am not objective. I am biased. I am willing to iterogate my privilige and my bias.&lt;/p&gt;
+<div class="img-container"><img class="full-width-img" src="/assets/images/projects/ml-machine/interface.jpeg" alt="The ml-machine.org interface" /></div>
 
-&lt;p&gt;I will let me be defined by my research. I will be other things than a researcher. I will question my research.&lt;/p&gt;
+<p>This tool explores how machine learning technologies can become a design material in the hands of students. By framing ML as a design material, we aim to specify that is is never a goal in it self, but is always incorporated into larger interactive systems which are imbued with intentions and goals. By letting students explore ML as a design material, we aim to support students in exploring the possibilities and limitations of the ML and code their own intentions into ML systems. We tested this tool in a pilot study in an 8th grade classroom in Denmark, a high-school classroom in California, USA and during the <a href="https://www.emfcamp.org">Electromagnetic Field Camp</a> in the U.K.</p>
 
-&lt;p&gt;My research aims to destabilise those in power. My research aims to empower those without it. My research aims to question existing power structures. My research suggests new ways of living. My research questions itself. My research questions me. My research is not objective.&lt;/p&gt;
+<div class="img-container"><img class="full-width-img" src="/assets/images/projects/ml-machine/prototypes.jpeg" alt="Prototypes built by students in Denmark" /></div>
 
-&lt;hr /&gt;
+<p>The tool is available <a href="https://www.ml-machine.org">here</a> and is in continued development.</p>]]></content><author><name></name></author><category term="projects" /><category term="work" /><summary type="html"><![CDATA[In order to let students explore how ML is embedded into our infrastructure, we designed ml-machine.org, an educational tool for creating ML models with the BBC micro:bit, and incorporating them into interactive systems, thus making ML a design material. Through an in-situ pilot study in an 8th grade classroom we demonstrates that students were able to redesign everyday objects around the possibilities and limitations imposed by ML, but that they struggled to understand more advanced parts of ML such as data representation.]]></summary></entry><entry><title type="html">First Two Weeks Abroad</title><link href="http://localhost:4000/blog/2022/03/02/first-two-weeks-abroad.html" rel="alternate" type="text/html" title="First Two Weeks Abroad" /><published>2022-03-02T00:00:00+01:00</published><updated>2022-03-02T00:00:00+01:00</updated><id>http://localhost:4000/blog/2022/03/02/first-two-weeks-abroad</id><content type="html" xml:base="http://localhost:4000/blog/2022/03/02/first-two-weeks-abroad.html"><![CDATA[<p>I am writing this blog post in New York City. How crazy is that?</p>
 
-&lt;p&gt;I was inspired to write the small manifesto after reading Josefin Wangel’s excellent book chapter ‘‘Troubling speculation’’ from her, Eléonore Fauré and colleagues’ excellent book ‘‘Beyond Efficiency’’.&lt;/p&gt;
+<div class="img-container"><img class="center-img" src="/assets/images/NYC/arrival.jpeg" alt="Arriving in NYC" /></div>]]></content><author><name></name></author><category term="blog" /><category term="work" /><summary type="html"><![CDATA[I am writing this blog post in New York City. How crazy is that?]]></summary></entry><entry><title type="html">My Personal Research Manifesto</title><link href="http://localhost:4000/blog/2022/01/06/my-personal-research-manifesto.html" rel="alternate" type="text/html" title="My Personal Research Manifesto" /><published>2022-01-06T00:00:00+01:00</published><updated>2022-01-06T00:00:00+01:00</updated><id>http://localhost:4000/blog/2022/01/06/my-personal-research-manifesto</id><content type="html" xml:base="http://localhost:4000/blog/2022/01/06/my-personal-research-manifesto.html"><![CDATA[<p>I am not my research. I am not just a researcher. I am priviliged. I am not objective. I am biased. I am willing to iterogate my privilige and my bias.</p>
 
-&lt;p&gt;It is motivated by a feeling/fear I’ve had of being personally consumed by my research, and forgetting who I am, when I’m not a researcher / of being defined (or letting me define) as only my job. I is also equally motivated by my political believes and a belief that we are heading towards a technocratic dystopia at an alarming rate, and that our governing bodies (and “us” as individuals) are not equipped to deal with it. I would point you to the Netflix film “The Social Dilemma”, which for all it’s shortcomings (e.g., it’s one-sidedness and eagerness to prescripe overtly nefarious motifs to developers of social media) does a good job of describing the situation we are currently in.&lt;/p&gt;
+<p>I will let me be defined by my research. I will be other things than a researcher. I will question my research.</p>
 
-&lt;p&gt;I hope/aim to make a difference.&lt;/p&gt;</content><author><name></name></author><category term="blog" /><category term="work" /><summary type="html">I am not my research. I am not just a researcher. I am priviliged. I am not objective. I am biased. I am willing to iterogate my privilige and my bias.</summary></entry><entry><title type="html">On Emerging Technologies And Speculation</title><link href="http://localhost:4000/blog/2022/01/05/on-emerging-technologies-and-speculation.html" rel="alternate" type="text/html" title="On Emerging Technologies And Speculation" /><published>2022-01-05T00:00:00-05:00</published><updated>2022-01-05T00:00:00-05:00</updated><id>http://localhost:4000/blog/2022/01/05/on-emerging-technologies-and-speculation</id><content type="html" xml:base="http://localhost:4000/blog/2022/01/05/on-emerging-technologies-and-speculation.html">&lt;p&gt;In my work as a researcher I work with machine learning (more specifically, how to teach it to secondary school children). I work in a &lt;a href=&quot;http://cctd.au.dk/projects/ceed-project&quot;&gt;project&lt;/a&gt; which, on a broader level, is exploring how to teach &lt;em&gt;emerging technologies&lt;/em&gt;. However, a major challenge for us (and one that we never quite settled) was figuring out what these emerging technologies &lt;em&gt;actually&lt;/em&gt; are.&lt;/p&gt;
+<p>My research aims to destabilise those in power. My research aims to empower those without it. My research aims to question existing power structures. My research suggests new ways of living. My research questions itself. My research questions me. My research is not objective.</p>
 
-&lt;p&gt;We began talking about emerging &lt;em&gt;digital&lt;/em&gt; technologies and emerging &lt;em&gt;computational&lt;/em&gt; technologies to become more precise in our use of the term. This would mean that technologies such as machine learning and augmented reality would be included, but graphene (which might be referred to as a emerging material technology) and CRISP-R editing (perhaps an emerging genetic technology) would not. Additionally, we found a well-written paper by &lt;a href=&quot;https://doi.org/10.1016/j.respol.2015.06.006&quot;&gt;Rotolo et al. (2015)&lt;/a&gt;, examining the nature of emerging technologies.&lt;/p&gt;
+<hr />
 
-&lt;p&gt;Rotolo and colleagues claim that such technologies are characterised by five traits:&lt;/p&gt;
+<p>I was inspired to write the small manifesto after reading Josefin Wangel’s excellent book chapter ‘‘Troubling speculation’’ from her, Eléonore Fauré and colleagues’ excellent book ‘‘Beyond Efficiency’’.</p>
 
-&lt;ol&gt;
-  &lt;li&gt;Radical Novelty&lt;/li&gt;
-  &lt;li&gt;Relatively Fast Growth&lt;/li&gt;
-  &lt;li&gt;Coherence&lt;/li&gt;
-  &lt;li&gt;Prominent Impact&lt;/li&gt;
-  &lt;li&gt;Uncertainty &amp;amp; Ambiguity&lt;/li&gt;
-&lt;/ol&gt;
+<p>It is motivated by a feeling/fear I’ve had of being personally consumed by my research, and forgetting who I am, when I’m not a researcher / of being defined (or letting me define) as only my job. I is also equally motivated by my political believes and a belief that we are heading towards a technocratic dystopia at an alarming rate, and that our governing bodies (and “us” as individuals) are not equipped to deal with it. I would point you to the Netflix film “The Social Dilemma”, which for all it’s shortcomings (e.g., it’s one-sidedness and eagerness to prescripe overtly nefarious motifs to developers of social media) does a good job of describing the situation we are currently in.</p>
 
-&lt;p&gt;It is the later two that I will examine in this post, and that I have found particularly interesting in my work, as I in the last month (give and take) have taken a serious interest in &lt;em&gt;speculative design&lt;/em&gt;.&lt;/p&gt;
+<p>I hope/aim to make a difference.</p>]]></content><author><name></name></author><category term="blog" /><category term="work" /><summary type="html"><![CDATA[I am not my research. I am not just a researcher. I am priviliged. I am not objective. I am biased. I am willing to iterogate my privilige and my bias.]]></summary></entry><entry><title type="html">On Emerging Technologies And Speculation</title><link href="http://localhost:4000/blog/2022/01/05/on-emerging-technologies-and-speculation.html" rel="alternate" type="text/html" title="On Emerging Technologies And Speculation" /><published>2022-01-05T00:00:00+01:00</published><updated>2022-01-05T00:00:00+01:00</updated><id>http://localhost:4000/blog/2022/01/05/on-emerging-technologies-and-speculation</id><content type="html" xml:base="http://localhost:4000/blog/2022/01/05/on-emerging-technologies-and-speculation.html"><![CDATA[<p>In my work as a researcher I work with machine learning (more specifically, how to teach it to secondary school children). I work in a <a href="http://cctd.au.dk/projects/ceed-project">project</a> which, on a broader level, is exploring how to teach <em>emerging technologies</em>. However, a major challenge for us (and one that we never quite settled) was figuring out what these emerging technologies <em>actually</em> are.</p>
 
-&lt;p&gt;Speculative design (just to take a small detour) moves from &lt;em&gt;what-if&lt;/em&gt; to &lt;em&gt;as-if&lt;/em&gt; as Wangel, Broms &amp;amp; Runberger argue in a chapter of the 2021 book &lt;a href=&quot;https://www.spurbuch.de/en/product-reader-aadr/product/beyond-efficiency.html&quot;&gt;Beyond Efficiecy&lt;/a&gt;, meaning that speculative designers take as a starting point a possible future and design &lt;em&gt;as if&lt;/em&gt; that future was the present. Now, I am not claiming to do speculative design (at least not in the sense put forth by Wangel and her colleagues), but speculation is very much part of the subject matter of my design work.&lt;/p&gt;
+<p>We began talking about emerging <em>digital</em> technologies and emerging <em>computational</em> technologies to become more precise in our use of the term. This would mean that technologies such as machine learning and augmented reality would be included, but graphene (which might be referred to as a emerging material technology) and CRISP-R editing (perhaps an emerging genetic technology) would not. Additionally, we found a well-written paper by <a href="https://doi.org/10.1016/j.respol.2015.06.006">Rotolo et al. (2015)</a>, examining the nature of emerging technologies.</p>
 
-&lt;p&gt;See, looking back at the five traits of emerging technologies (at least) two of them are speculative in nature, namely &lt;em&gt;Prominent Impact&lt;/em&gt; and especially &lt;em&gt;Uncertainty &amp;amp; Ambiguity&lt;/em&gt;. According to Rotolo and colleagues, an emerging technology is defined as such by (amongst other things) an expected significant impact on society, and by not really knowing what that impact will be, and even what the technology will look like in a few years. These are inherently subjects of speculation - and very much of design, in the sence that what ever actual future (their actual impacts and certainties) which these technologies with exist in is of our (everybody’s) making.&lt;/p&gt;
+<p>Rotolo and colleagues claim that such technologies are characterised by five traits:</p>
 
-&lt;p&gt;In another chapter in Beyond Efficiency, Wangel and Fauré argue that we tend to see past, present and future a singular (i.e. there is &lt;em&gt;one true&lt;/em&gt; of each), but this is not actually the case. Instead there are several possible of each depending on the perspective of the on-looker, however ‘‘all futures are premised on the past and present’’, meaning that no matter the imagined future it (should) always be premised on (someone’s) past and present.&lt;/p&gt;
+<ol>
+  <li>Radical Novelty</li>
+  <li>Relatively Fast Growth</li>
+  <li>Coherence</li>
+  <li>Prominent Impact</li>
+  <li>Uncertainty &amp; Ambiguity</li>
+</ol>
 
-&lt;div class=&quot;img-container&quot;&gt;&lt;img class=&quot;center-img&quot; src=&quot;/assets/images/emTechspeculation/pppp.jpeg&quot; alt=&quot;the present, possible, propable, preferable futures model&quot; /&gt;&lt;/div&gt;
+<p>It is the later two that I will examine in this post, and that I have found particularly interesting in my work, as I in the last month (give and take) have taken a serious interest in <em>speculative design</em>.</p>
 
-&lt;p&gt;This idea has powerful implications for developing children’s (and really, everybody’s) ability to critically engage with emerging technologies: Since our imagined futures rely on our understanding of the past and the present, it is necessary to ensure that children’s understanding of the technology in question is correct and sufficiently deep and broad in order for them to speculate on what future they see and want for said technology (and in effect for them to reflect on how they should engage with the technology today). This means that discussions about of, say, machine learning should not be had on vague technological grounds, but need to be anchored in the technological present.&lt;/p&gt;
+<p>Speculative design (just to take a small detour) moves from <em>what-if</em> to <em>as-if</em> as Wangel, Broms &amp; Runberger argue in a chapter of the 2021 book <a href="https://www.spurbuch.de/en/product-reader-aadr/product/beyond-efficiency.html">Beyond Efficiecy</a>, meaning that speculative designers take as a starting point a possible future and design <em>as if</em> that future was the present. Now, I am not claiming to do speculative design (at least not in the sense put forth by Wangel and her colleagues), but speculation is very much part of the subject matter of my design work.</p>
 
-&lt;p&gt;Everybody’s present is different - for a child machine learning might not ever by something they have heard of, and one might argue that it does not exist in their reality) However, it does exist, and they likely (if they use, e.g, social media or search engines) interact with it on a daily basis. Thus, scaffolding children’s reflection on emerging technologies is as much about bringing it into existance in their present as is it about helping them to take a stance on its role in the (or &lt;em&gt;a&lt;/em&gt;) future.&lt;/p&gt;</content><author><name></name></author><category term="blog" /><category term="work" /><summary type="html">In my work as a researcher I work with machine learning (more specifically, how to teach it to secondary school children). I work in a project which, on a broader level, is exploring how to teach emerging technologies. However, a major challenge for us (and one that we never quite settled) was figuring out what these emerging technologies actually are.</summary></entry><entry><title type="html">Julefrokost På Mols I Roslev</title><link href="http://localhost:4000/events/2021/12/26/julefrokost-p%C3%A5-mols-i-roslev.html" rel="alternate" type="text/html" title="Julefrokost På Mols I Roslev" /><published>2021-12-26T00:00:00-05:00</published><updated>2021-12-26T00:00:00-05:00</updated><id>http://localhost:4000/events/2021/12/26/julefrokost-p%C3%A5-mols-i-roslev</id><content type="html" xml:base="http://localhost:4000/events/2021/12/26/julefrokost-p%C3%A5-mols-i-roslev.html">&lt;p&gt;Hej molboer++! Til januar (den 15.) er der julefrokost på Mols, og nu hvor jeg sletter min Facebookprofil (😬), synes jeg alligevel, jeg ville lave et sted, hvor man kunne se, hvad der skulle ske, og det er her!&lt;/p&gt;
+<p>See, looking back at the five traits of emerging technologies (at least) two of them are speculative in nature, namely <em>Prominent Impact</em> and especially <em>Uncertainty &amp; Ambiguity</em>. According to Rotolo and colleagues, an emerging technology is defined as such by (amongst other things) an expected significant impact on society, and by not really knowing what that impact will be, and even what the technology will look like in a few years. These are inherently subjects of speculation - and very much of design, in the sence that what ever actual future (their actual impacts and certainties) which these technologies with exist in is of our (everybody’s) making.</p>
 
-&lt;p&gt;Lea og jeg tager derud allerede den 14., så man må meget gerne komme dér 😊 Ellers kan man komme i løbet af den 15. - bare når det passer én. Man kan komme dertil med tog, og stige af i Skive. Hvis man gør dét, så kan man fx skrive til mig (på 30140807) og så kommer jeg og henter en i Skive. Hvis man koordinerer det lidt, så behøver jeg ikke køre flere gange!&lt;/p&gt;
+<p>In another chapter in Beyond Efficiency, Wangel and Fauré argue that we tend to see past, present and future a singular (i.e. there is <em>one true</em> of each), but this is not actually the case. Instead there are several possible of each depending on the perspective of the on-looker, however ‘‘all futures are premised on the past and present’’, meaning that no matter the imagined future it (should) always be premised on (someone’s) past and present.</p>
 
-&lt;p&gt;I kan skrive jer på mad nederst på siden!&lt;/p&gt;
+<div class="img-container"><img class="center-img" src="/assets/images/emTechspeculation/pppp.jpeg" alt="the present, possible, propable, preferable futures model" /></div>
 
-&lt;h2 id=&quot;find-vej&quot;&gt;Find vej!&lt;/h2&gt;
+<p>This idea has powerful implications for developing children’s (and really, everybody’s) ability to critically engage with emerging technologies: Since our imagined futures rely on our understanding of the past and the present, it is necessary to ensure that children’s understanding of the technology in question is correct and sufficiently deep and broad in order for them to speculate on what future they see and want for said technology (and in effect for them to reflect on how they should engage with the technology today). This means that discussions about of, say, machine learning should not be had on vague technological grounds, but need to be anchored in the technological present.</p>
 
-&lt;p&gt;Adressen er Bystedmøllevej 8, 7870 Roslev:&lt;/p&gt;
+<p>Everybody’s present is different - for a child machine learning might not ever by something they have heard of, and one might argue that it does not exist in their reality) However, it does exist, and they likely (if they use, e.g, social media or search engines) interact with it on a daily basis. Thus, scaffolding children’s reflection on emerging technologies is as much about bringing it into existance in their present as is it about helping them to take a stance on its role in the (or <em>a</em>) future.</p>]]></content><author><name></name></author><category term="blog" /><category term="work" /><summary type="html"><![CDATA[In my work as a researcher I work with machine learning (more specifically, how to teach it to secondary school children). I work in a project which, on a broader level, is exploring how to teach emerging technologies. However, a major challenge for us (and one that we never quite settled) was figuring out what these emerging technologies actually are.]]></summary></entry><entry><title type="html">Julefrokost På Mols I Roslev</title><link href="http://localhost:4000/events/2021/12/26/julefrokost-p%C3%A5-mols-i-roslev.html" rel="alternate" type="text/html" title="Julefrokost På Mols I Roslev" /><published>2021-12-26T00:00:00+01:00</published><updated>2021-12-26T00:00:00+01:00</updated><id>http://localhost:4000/events/2021/12/26/julefrokost-p%C3%A5-mols-i-roslev</id><content type="html" xml:base="http://localhost:4000/events/2021/12/26/julefrokost-p%C3%A5-mols-i-roslev.html"><![CDATA[<p>Hej molboer++! Til januar (den 15.) er der julefrokost på Mols, og nu hvor jeg sletter min Facebookprofil (😬), synes jeg alligevel, jeg ville lave et sted, hvor man kunne se, hvad der skulle ske, og det er her!</p>
 
-&lt;div class=&quot;iframe&quot;&gt;&lt;iframe class=&quot;embedded-content&quot; src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2187.063201059429!2d8.934217315751182!3d56.759051980834435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464979f54bc35d9d%3A0x4721769e213a712c!2sBystedm%C3%B8llevej%208%2C%207870%20Roslev%2C%20Danmark!5e0!3m2!1sda!2sse!4v1640550353892!5m2!1sda!2sse&quot; allowfullscreen=&quot;&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+<p>Lea og jeg tager derud allerede den 14., så man må meget gerne komme dér 😊 Ellers kan man komme i løbet af den 15. - bare når det passer én. Man kan komme dertil med tog, og stige af i Skive. Hvis man gør dét, så kan man fx skrive til mig (på 30140807) og så kommer jeg og henter en i Skive. Hvis man koordinerer det lidt, så behøver jeg ikke køre flere gange!</p>
 
-&lt;h2 id=&quot;video-invitation&quot;&gt;Video Invitation&lt;/h2&gt;
+<p>I kan skrive jer på mad nederst på siden!</p>
 
-&lt;p&gt;Der er selvfølgelig også en video invitation! Den er her, juhuuu!&lt;/p&gt;
+<h2 id="find-vej">Find vej!</h2>
 
-&lt;div class=&quot;iframe&quot;&gt;&lt;iframe class=&quot;embedded-content&quot; src=&quot;https://www.youtube.com/embed/41s5AaACoXk&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+<p>Adressen er Bystedmøllevej 8, 7870 Roslev:</p>
 
-&lt;h2 id=&quot;mad&quot;&gt;Mad&lt;/h2&gt;
+<div class="iframe"><iframe class="embedded-content" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2187.063201059429!2d8.934217315751182!3d56.759051980834435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464979f54bc35d9d%3A0x4721769e213a712c!2sBystedm%C3%B8llevej%208%2C%207870%20Roslev%2C%20Danmark!5e0!3m2!1sda!2sse!4v1640550353892!5m2!1sda!2sse" allowfullscreen="" loading="lazy"></iframe></div>
 
-&lt;p&gt;Her er en liste af mad, som skal tages med! Man må meget gerne skrive sig på i Padlet’en nedenunder, når man ved hvad man vil have med! (Ja, det havde været nemmere at koordinere på Facebook det her, men sådan er livet jo ligesom, hæhæ).&lt;/p&gt;
+<h2 id="video-invitation">Video Invitation</h2>
 
-&lt;ul&gt;
-  &lt;li&gt;Øl&lt;/li&gt;
-  &lt;li&gt;Snaps&lt;/li&gt;
-  &lt;li&gt;Sild&lt;/li&gt;
-  &lt;li&gt;Karrysalat (IKKE KARRYSILD)
-    &lt;ul&gt;
-      &lt;li&gt;Det er den evige diskussion men det rigtige er karrysalat og kryddersild og man kan også godt skære nogle løgringe til og komme dem ovenpå, hvis man nu har lyst til det.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Leverpostej&lt;/li&gt;
-  &lt;li&gt;Risalamande&lt;/li&gt;
-  &lt;li&gt;Rugbrød&lt;/li&gt;
-  &lt;li&gt;Smør&lt;/li&gt;
-  &lt;li&gt;Mere eller mindre hvidt brød&lt;/li&gt;
-  &lt;li&gt;Snacks&lt;/li&gt;
-  &lt;li&gt;Kirsebærsovs&lt;/li&gt;
-  &lt;li&gt;Pasta Carbonara
-    &lt;ul&gt;
-      &lt;li&gt;Det er jo en lidt kontroversiel ret, men den skal jo laves og den plejer jo også at blive spist kan man sige.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Slik&lt;/li&gt;
-  &lt;li&gt;Brunede kartofler&lt;/li&gt;
-  &lt;li&gt;Frikadeller på den ene eller den anden måde&lt;/li&gt;
-  &lt;li&gt;Kartoffelsalat&lt;/li&gt;
-  &lt;li&gt;Æg&lt;/li&gt;
-  &lt;li&gt;Mjød&lt;/li&gt;
-  &lt;li&gt;Rødkål&lt;/li&gt;
-  &lt;li&gt;Vegetariske sager
-    &lt;ul&gt;
-      &lt;li&gt;Amalie må fx godt tage falafler med selvom det måske ikke er så julet.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;En form for steg&lt;/li&gt;
-  &lt;li&gt;En and?&lt;/li&gt;
-  &lt;li&gt;Rodfrugter&lt;/li&gt;
-  &lt;li&gt;Postej&lt;/li&gt;
-&lt;/ul&gt;
+<p>Der er selvfølgelig også en video invitation! Den er her, juhuuu!</p>
 
-&lt;h3 id=&quot;padlet&quot;&gt;Padlet&lt;/h3&gt;
-&lt;p&gt;Skriv jer på herunder :)&lt;/p&gt;
+<div class="iframe"><iframe class="embedded-content" src="https://www.youtube.com/embed/41s5AaACoXk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 
-&lt;div class=&quot;iframe&quot;&gt;&lt;iframe class=&quot;embedded-content padlet-iframe&quot; src=&quot;https://padlet.com/embed/moft8a2d03kmx8ja&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;</content><author><name></name></author><category term="events" /><summary type="html">Hej molboer++! Til januar (den 15.) er der julefrokost på Mols, og nu hvor jeg sletter min Facebookprofil (😬), synes jeg alligevel, jeg ville lave et sted, hvor man kunne se, hvad der skulle ske, og det er her!</summary></entry><entry><title type="html">Nerf Build</title><link href="http://localhost:4000/2021/12/02/nerf-build.html" rel="alternate" type="text/html" title="Nerf Build" /><published>2021-12-02T00:00:00-05:00</published><updated>2021-12-02T00:00:00-05:00</updated><id>http://localhost:4000/2021/12/02/nerf-build</id><content type="html" xml:base="http://localhost:4000/2021/12/02/nerf-build.html">&lt;p&gt;Recently, I’ve discovered my inner (non-professional) maker, and it took customizing a Nerf-gun to do it!&lt;/p&gt;
+<h2 id="mad">Mad</h2>
 
-&lt;p&gt;I watched the &lt;a href=&quot;https://www.youtube.com/watch?v=cwOXSXkW-uE&amp;amp;t=7s&quot;&gt;Adam Savage video&lt;/a&gt; in which he paints, weathers and mods a really awesome looking Nerf-gun, and I was inspired, so I went out and got myself a cheap Nerf knock-off and a buch of paint.&lt;/p&gt;
+<p>Her er en liste af mad, som skal tages med! Man må meget gerne skrive sig på i Padlet’en nedenunder, når man ved hvad man vil have med! (Ja, det havde været nemmere at koordinere på Facebook det her, men sådan er livet jo ligesom, hæhæ).</p>
 
-&lt;div class=&quot;img-container&quot;&gt;&lt;img class=&quot;center-img&quot; src=&quot;/assets/images/nerf-build/pre.jpeg&quot; alt=&quot;original gun&quot; /&gt;&lt;/div&gt;
+<ul>
+  <li>Øl</li>
+  <li>Snaps</li>
+  <li>Sild</li>
+  <li>Karrysalat (IKKE KARRYSILD)
+    <ul>
+      <li>Det er den evige diskussion men det rigtige er karrysalat og kryddersild og man kan også godt skære nogle løgringe til og komme dem ovenpå, hvis man nu har lyst til det.</li>
+    </ul>
+  </li>
+  <li>Leverpostej</li>
+  <li>Risalamande</li>
+  <li>Rugbrød</li>
+  <li>Smør</li>
+  <li>Mere eller mindre hvidt brød</li>
+  <li>Snacks</li>
+  <li>Kirsebærsovs</li>
+  <li>Pasta Carbonara
+    <ul>
+      <li>Det er jo en lidt kontroversiel ret, men den skal jo laves og den plejer jo også at blive spist kan man sige.</li>
+    </ul>
+  </li>
+  <li>Slik</li>
+  <li>Brunede kartofler</li>
+  <li>Frikadeller på den ene eller den anden måde</li>
+  <li>Kartoffelsalat</li>
+  <li>Æg</li>
+  <li>Mjød</li>
+  <li>Rødkål</li>
+  <li>Vegetariske sager
+    <ul>
+      <li>Amalie må fx godt tage falafler med selvom det måske ikke er så julet.</li>
+    </ul>
+  </li>
+  <li>En form for steg</li>
+  <li>En and?</li>
+  <li>Rodfrugter</li>
+  <li>Postej</li>
+</ul>
 
-&lt;p&gt;I then continued to paint the gun and I think it turned out really nice.&lt;/p&gt;
+<h3 id="padlet">Padlet</h3>
+<p>Skriv jer på herunder :)</p>
 
-&lt;div class=&quot;img-container&quot;&gt;&lt;img class=&quot;center-img&quot; src=&quot;/assets/images/nerf-build/post.jpeg&quot; alt=&quot;original gun&quot; /&gt;&lt;/div&gt;
+<div class="iframe"><iframe class="embedded-content padlet-iframe" src="https://padlet.com/embed/moft8a2d03kmx8ja" frameborder="0"></iframe></div>]]></content><author><name></name></author><category term="events" /><summary type="html"><![CDATA[Hej molboer++! Til januar (den 15.) er der julefrokost på Mols, og nu hvor jeg sletter min Facebookprofil (😬), synes jeg alligevel, jeg ville lave et sted, hvor man kunne se, hvad der skulle ske, og det er her!]]></summary></entry><entry><title type="html">Nerf Build</title><link href="http://localhost:4000/blog/2021/12/02/nerf-build.html" rel="alternate" type="text/html" title="Nerf Build" /><published>2021-12-02T00:00:00+01:00</published><updated>2021-12-02T00:00:00+01:00</updated><id>http://localhost:4000/blog/2021/12/02/nerf-build</id><content type="html" xml:base="http://localhost:4000/blog/2021/12/02/nerf-build.html"><![CDATA[<p>Recently, I’ve discovered my inner (non-professional) maker, and it took customizing a Nerf-gun to do it!</p>
 
-&lt;p&gt;Hope you enjoyed this small post. I’ll try to make sure to post whenever I build something 😊&lt;/p&gt;</content><author><name></name></author><summary type="html">Recently, I’ve discovered my inner (non-professional) maker, and it took customizing a Nerf-gun to do it!</summary></entry><entry><title type="html">Nerf Build</title><link href="http://localhost:4000/blog/2021/12/02/nerf-build.html" rel="alternate" type="text/html" title="Nerf Build" /><published>2021-12-02T00:00:00-05:00</published><updated>2021-12-02T00:00:00-05:00</updated><id>http://localhost:4000/blog/2021/12/02/nerf-build</id><content type="html" xml:base="http://localhost:4000/blog/2021/12/02/nerf-build.html">&lt;p&gt;Recently, I’ve discovered my inner (non-professional) maker, and it took customizing a Nerf-gun to do it!&lt;/p&gt;
+<p>I watched the <a href="https://www.youtube.com/watch?v=cwOXSXkW-uE&amp;t=7s">Adam Savage video</a> in which he paints, weathers and mods a really awesome looking Nerf-gun, and I was inspired, so I went out and got myself a cheap Nerf knock-off and a buch of paint.</p>
 
-&lt;p&gt;I watched the &lt;a href=&quot;https://www.youtube.com/watch?v=cwOXSXkW-uE&amp;amp;t=7s&quot;&gt;Adam Savage video&lt;/a&gt; in which he paints, weathers and mods a really awesome looking Nerf-gun, and I was inspired, so I went out and got myself a cheap Nerf knock-off and a buch of paint.&lt;/p&gt;
+<div class="img-container"><img class="center-img" src="/assets/images/nerf-build/pre.jpeg" alt="original gun" /></div>
 
-&lt;div class=&quot;img-container&quot;&gt;&lt;img class=&quot;center-img&quot; src=&quot;/assets/images/nerf-build/pre.jpeg&quot; alt=&quot;original gun&quot; /&gt;&lt;/div&gt;
+<p>I then continued to paint the gun and I think it turned out really nice.</p>
 
-&lt;p&gt;I then continued to paint the gun and I think it turned out really nice.&lt;/p&gt;
+<div class="img-container"><img class="center-img" src="/assets/images/nerf-build/post.jpeg" alt="original gun" /></div>
 
-&lt;div class=&quot;img-container&quot;&gt;&lt;img class=&quot;center-img&quot; src=&quot;/assets/images/nerf-build/post.jpeg&quot; alt=&quot;original gun&quot; /&gt;&lt;/div&gt;
+<p>Hope you enjoyed this small post. I’ll try to make sure to post whenever I build something 😊</p>]]></content><author><name></name></author><category term="blog" /><category term="personal" /><summary type="html"><![CDATA[Recently, I’ve discovered my inner (non-professional) maker, and it took customizing a Nerf-gun to do it!]]></summary></entry><entry><title type="html">Machine Learning Machine</title><link href="http://localhost:4000/projects/2021/02/14/machine-learning-machine.html" rel="alternate" type="text/html" title="Machine Learning Machine" /><published>2021-02-14T00:00:00+01:00</published><updated>2021-02-14T00:00:00+01:00</updated><id>http://localhost:4000/projects/2021/02/14/machine-learning-machine</id><content type="html" xml:base="http://localhost:4000/projects/2021/02/14/machine-learning-machine.html"><![CDATA[<p>In this project, I explored how to make processes and aspects of ML tangible through the design of the Machine Learning Machine; a tangible user interface which enables students to create their own data-sets using pen and paper and to iteratively build and test ML models using this data.</p>
 
-&lt;p&gt;Hope you enjoyed this small post. I’ll try to make sure to post whenever I build something 😊&lt;/p&gt;</content><author><name></name></author><category term="blog" /><category term="personal" /><summary type="html">Recently, I’ve discovered my inner (non-professional) maker, and it took customizing a Nerf-gun to do it!</summary></entry></feed>
+<p>The Machine Learning Machine is designed to complement existing learnings tools for teaching ML in classrooms and to expand existing research regarding what students should know about ML and how we can design tools and meaningful activities that allow them to engage with it. The design of and design rationale behind the Machine Learning Machine represent a novel approach to making ML explorable and graspable through tangible user interfaces. The Machine Learning Machine achieves this by allowing students to engage with ML through an iterative process of Problem Formulation, Data Gathering, Training and Evaluation.</p>
+
+<div class="img-container"><img class="full-width-img" src="/assets/images/projects/mlm/mlmprototype.png" alt="The Machine Learning Machine prototype" /></div>
+
+<p>This results of this exploration are manifested in the Machine Learning Machine; a TUI consisting of two separate devices, which allow K-12 students to create data and train and test ML models. The first device, the Trainer, is an industrial-looking machine, allowing learners to train models to recognise student-made drawings by feeding the machine with a number of drawings and labelling these.</p>
+
+<div class="img-container"><img class="full-width-img" src="/assets/images/projects/mlm/trainer.png" alt="The Machine Learning Machine Trainer" /></div>
+
+<p>The second device, the Evaluator, resembles laboratory equipment and allows learners to test their models by placing new drawings under its camera and having it try to recognise them.</p>
+
+<div class="img-container"><img class="full-width-img" src="/assets/images/projects/mlm/evaluator.png" alt="The Machine Learning Machine Evaluator" /></div>
+
+<p>Learners can switch between the two devices by moving a physical representation of their model between them, and in this way iteratively try to improve their model. By training ML models on drawings made by students, the Machine Learning Machine aims to support students experimenting with training ML models, and to support teaching ML fundamentals as well as more complex tasks in which students explore, e.g., data representativity and unintentional bias. The novelty of the Machine Learning Machine is not the tangible user interface per se. Instead it is the manifestation of how tangibility can support students’ exploration of the complex phenomena of ML.</p>
+
+<p>The Machine Learning Machine demonstrates the qualities of an iterative approach for engaging students in understanding and reflecting about ML and the qualities of a tangible approach to teaching ML in terms of shifting between being ready-to-hand and present-at-hand and of presenting ML slowly and deliberately.</p>
+
+<p>Publication available <a href="https://dl.acm.org/doi/10.1145/3430524.3440638">here</a>.</p>]]></content><author><name></name></author><category term="projects" /><category term="work" /><summary type="html"><![CDATA[In this project, I explored how to make processes and aspects of ML tangible through the design of the Machine Learning Machine; a tangible user interface which enables students to create their own data-sets using pen and paper and to iteratively build and test ML models using this data.]]></summary></entry><entry><title type="html">Machine Learning Ethics Workshop</title><link href="http://localhost:4000/projects/2020/07/03/machine-learning-ethics-workshop.html" rel="alternate" type="text/html" title="Machine Learning Ethics Workshop" /><published>2020-07-03T00:00:00+02:00</published><updated>2020-07-03T00:00:00+02:00</updated><id>http://localhost:4000/projects/2020/07/03/machine-learning-ethics-workshop</id><content type="html" xml:base="http://localhost:4000/projects/2020/07/03/machine-learning-ethics-workshop.html"><![CDATA[<p>I developed a card-based design workshop that allows students to reflect on ethical dilemmas by using a ML specific set
+of card decks for designing ML applications. The workshop places ethical reflections at the center of the design activities and discuss technology-close ethics with students based on their own designs of ML systems. The workshop was developed in an iterative process engaging four high school classrooms with students aged 16-20.</p>
+
+<div class="img-container"><img class="full-width-img" src="/assets/images/projects/ethicsworkshop/cards.png" alt="Different cards for use in the Ethics Workshop" /></div>
+
+<p>Three decks of cards and a board for describing a ML system are used by the students in the workshop. The three decks of cards consist of respectively 14 data cards, 9 ethics cards, and 26 people cards, colour-coded to communicate which deck they belong to. The data deck is used to analyse a context for possible data sources, exposing to the participants how data can be found everywhere, and to provide examples of a variety of different types of data and data sources. Each card describes a category of data sources (e.g. health data, news, users locations) and provides a few examples of specific data sources in the category (e.g. pulse, breaking news, time at a location) to help participants understand the category. The people deck is used to analyse the context in which the application will be implemented with focus on people, with each card describing a potential stakeholder (e.g. a colleague, a sibling, teacher, etc.). Participants use this card deck to identify who the application may affect, and how these people can be included in the considerations about the design of the application. The ethics deck is used for reflecting on ethical implications of implementing a ML-system into a context, asking the participants to consider ethical ML issues (e.g. explainability, privacy, accountability). Each card asks the participants one or two questions to help frame a discussion around the issue in relation their design and ethics, e.g. “What happens if your system makes a bad decision? Who is accountable?”</p>
+
+<div class="img-container"><img class="full-width-img" src="/assets/images/projects/ethicsworkshop/studentsusingworkshop.jpeg" alt="Students engaged in the workshop" /></div>
+
+<p>From the workshop, I found that scaffolding students in designing meaningful ML systems served to qualify their ethical reflections. Further students’ design processes allowed them to engage with the ethical dilemmas and to tie these to the properties of the technology and to their design decisions. I suggest seeing technology-close discussions about ethics as a goal in design processes, and prototyping as a means to ground these discussions in students’ own design decisions, and I contribute a workshop format and design artefacts that allow for this.</p>
+
+<p>Workshop assets are available <a href="https://github.com/Karlo-Emilo/ML-ethics-workshop">here</a>, and the publication is available <a href="https://dl.acm.org/doi/10.1145/3357236.3395558">here</a>.</p>]]></content><author><name></name></author><category term="projects" /><category term="work" /><summary type="html"><![CDATA[I developed a card-based design workshop that allows students to reflect on ethical dilemmas by using a ML specific set of card decks for designing ML applications. The workshop places ethical reflections at the center of the design activities and discuss technology-close ethics with students based on their own designs of ML systems. The workshop was developed in an iterative process engaging four high school classrooms with students aged 16-20.]]></summary></entry><entry><title type="html">VotestratesML</title><link href="http://localhost:4000/projects/2019/06/29/VotestratesML.html" rel="alternate" type="text/html" title="VotestratesML" /><published>2019-06-29T00:00:00+02:00</published><updated>2019-06-29T00:00:00+02:00</updated><id>http://localhost:4000/projects/2019/06/29/VotestratesML</id><content type="html" xml:base="http://localhost:4000/projects/2019/06/29/VotestratesML.html"><![CDATA[<p>I designed VotestratesML; a web-based collaborative learning tool allowing K-12 students to build models and make predictions based
+on real world voting data for use in a social studies classroom. The process was realised through six user-interventions in
+two social studies high school classrooms in Aarhus, Denmark.</p>
+
+<div class="img-container"><img class="full-width-img" src="/assets/images/projects/votestratesml/studentsusingvml.jpeg" alt="Students using VotestratesML" /></div>
+
+<p>In a typical use situation of VotestratesML, students are introduced to the tool and how it supports building ML models. Next, students are divided into groups of 3-4 people. Each group member logs into VotestratesML on their laptop gaining access to the collaborative ML tool, see Figure 2a. The teacher then asks groups to create the best possible model for, e.g., predicting if a person will vote for The Social Democratic Party. Each group chooses the Votes for The Social Democratic Party-label available in VotestratesML. The groups go on to discuss which features to include in their model. Here, students can draw on their existing knowledge from social studies class. For example, according to the Michigan Model for voter behaviour, which students are taught in advanced social studies, voting behaviour is affected by family, and thus, it might be important to choose features describing how the parents of a person voted.</p>
+
+<p>Once students agree on a set of features, they need to choose an algorithm, and to determine its parameters. Once the model is trained and tested, students can change their model parameters, features, shuffle the data or change the training-data/test-data ratio to try to improve the model.</p>
+
+<div class="img-container"><img class="full-width-img" src="/assets/images/projects/votestratesml/largeVMLmodel.png" alt="The VotestratesML interface" /></div>
+
+<p>When they are satisfied, students push their model to a shared view projected on the wall in the classroom. From here, they can compare it to models from other groups and discuss how to improve their model. Finally, when the teacher ends the exercise, a more detailed view is projected on the wall and used in discussions of students’ choice of features and model parameters, the predictions of the models, and the implications of this way of working on politics and society. The topic of these discussions depend on the task given to the students, but might include how these predictions can be used to target political advertisements to specific demographics and what the consequence of this is.</p>
+
+<p>Publication available <a href="https://dl.acm.org/doi/10.1145/3466725.3466728">here</a>.</p>]]></content><author><name></name></author><category term="projects" /><category term="work" /><summary type="html"><![CDATA[I designed VotestratesML; a web-based collaborative learning tool allowing K-12 students to build models and make predictions based on real world voting data for use in a social studies classroom. The process was realised through six user-interventions in two social studies high school classrooms in Aarhus, Denmark.]]></summary></entry><entry><title type="html">Kirigami Actuators</title><link href="http://localhost:4000/projects/2019/06/23/kirigami-actuators.html" rel="alternate" type="text/html" title="Kirigami Actuators" /><published>2019-06-23T00:00:00+02:00</published><updated>2019-06-23T00:00:00+02:00</updated><id>http://localhost:4000/projects/2019/06/23/kirigami-actuators</id><content type="html" xml:base="http://localhost:4000/projects/2019/06/23/kirigami-actuators.html"><![CDATA[<p>Kirigami Actuators are two-dimensional patterns that allow the translation of a simple actuation in one dimension into a complex transformation in another. This project explores several design tactics for a specific Kirigami Actuator: the Lift pattern. These tactics outline how different components of the pattern can be changed to strategically alter the transformational qualities of the pattern. The tactics illustrate how certain changes to the cutting patterns control the stability, amplitude and directionality of the transformation, how to prevent interlocking, as well as the degree of freedom to design the visual appearance.</p>
+
+<div class="img-container"><img class="full-width-img" src="/assets/images/projects/kirigami/hero.png" alt="Several different types of the Lift pattern for Kirigami Actuators" /></div>
+
+<p>This project builds on the concept of Kirigami Actuators, developed by <a href="https://pubs.rsc.org/en/content/articlelanding/2017/sm/c7sm01693j">Dias et. al.</a>. They show how the traditional Japanese art of folding and cutting paper to create three dimensional structures called kirigami, can be utilised to create actuators.</p>
+
+<p>This project explored how these principles could be adapted into a ressource for designers of Shape-changing Interfaces. This challenge was two-fold. First, the usefulness of thin mylar sheets as actuators in Shape-changing Interfaces is, arguably, quite limited. The question is; in what materials can Kirigami Actuators be realised, that are robust enough for users to interact with, and allow designers to alter their aesthetic qualities? Second, an exploration of how the transformational qualities of the Kirigami Actuators can be altered was needed.</p>
+
+<p>I explored the possibilities for altering the Lift pattern; a Kirigami Actuator, where a simple translation of the sides lifts up the central component of the actuator. Different material combinations and fabrication techniques were explored, to allow the actuator to maintain its transformative qualities. Furthermore, experiments exploring the effects of altering different components of the Lift pattern, were made.</p>
+
+<div class="img-container"><img class="full-width-img" src="/assets/images/projects/kirigami/designprocess.png" alt="Our design process exploring kirigami actuators" /></div>
+
+<p>Publication available <a href="https://dl.acm.org/doi/10.1145/3322276.3323688">here</a>.</p>]]></content><author><name></name></author><category term="projects" /><category term="work" /><summary type="html"><![CDATA[Kirigami Actuators are two-dimensional patterns that allow the translation of a simple actuation in one dimension into a complex transformation in another. This project explores several design tactics for a specific Kirigami Actuator: the Lift pattern. These tactics outline how different components of the pattern can be changed to strategically alter the transformational qualities of the pattern. The tactics illustrate how certain changes to the cutting patterns control the stability, amplitude and directionality of the transformation, how to prevent interlocking, as well as the degree of freedom to design the visual appearance.]]></summary></entry></feed>

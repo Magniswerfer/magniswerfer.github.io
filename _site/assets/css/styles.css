@@ -6,7 +6,9 @@ a:active { color: lightblue; text-decoration: none; }
 
 #current-page { color: black; }
 
-.default-wrapper { display: flex; flex-direction: column; justify-content: space-between; margin: 0.5em; background-color: white; width: 60%; position: relative; }
+.default-wrapper { display: flex; flex-direction: column; justify-content: space-between; margin: 0.5em; margin-bottom: 50px; background-color: white; width: 900px; position: relative; }
+
+.project-list { list-style-type: none; padding-left: 0; }
 
 .footer { position: fixed; z-index: 1000; bottom: 0; font-size: smaller; display: flex; flex-direction: row; justify-content: center; width: 100%; background-color: white; }
 
@@ -42,7 +44,11 @@ div.iframe { text-align: center; }
 
 .padlet-iframe { height: 608px; }
 
-img { padding: 2em 0 1em 0; width: 50%; object-fit: cover; }
+img { padding: 2em 0 1em 0; object-fit: cover; }
+
+.center-img { width: 50%; }
+
+.full-width-img { width: 100%; }
 
 p > div.img-container, div.img-container { text-align: center; }
 
@@ -50,9 +56,9 @@ p > div.img-container, div.img-container { text-align: center; }
 
 .dont-break-out { /* These are technically the same, but use both */ overflow-wrap: break-word; word-wrap: break-word; -ms-word-break: break-all; /* This is the dangerous one in WebKit, as it breaks things wherever */ word-break: break-all; /* Instead use this non-standard one: */ word-break: break-word; /* Adds a hyphen where the word breaks, if supported (No Blink) */ -ms-hyphens: auto; -moz-hyphens: auto; -webkit-hyphens: auto; hyphens: auto; }
 
-@media only screen and (max-width: 1200px) { .default-wrapper { width: 80%; } .nav-menu { font-size: larger; } .footer { font-size: medium; } }
+@media only screen and (max-width: 1200px) { .default-wrapper { width: 70%; } .nav-menu { font-size: larger; } .footer { font-size: medium; } }
 
-@media only screen and (max-width: 749px) { .default-wrapper { width: 100%; } .nav-menu { justify-content: space-evenly; } .nav-menu-item { padding-right: 0em; } .footer { font-size: small; } img { padding: 0.6em 0 0.6em 0; width: 60%; } .embedded-content { width: 100%; height: 200px; margin: 1em 0 1em 0; } .padlet-iframe { height: 608px; } }
+@media only screen and (max-width: 749px) { .default-wrapper { width: 100%; } .nav-menu { justify-content: space-evenly; } .nav-menu-item { padding-right: 0em; } .footer { font-size: small; } img { padding: 0.6em 0 0.6em 0; } .center-img { width: 60%; } .embedded-content { width: 100%; height: 200px; margin: 1em 0 1em 0; } .padlet-iframe { height: 608px; } }
 
 @media only screen and (max-width: 749px) { .default-wrapper { width: 100%; } #hamnav { border: none; display: flex; flex-direction: column; align-items: center; } /* (A) BREAK INTO VERTICAL MENU */ #hamitems a { box-sizing: border-box; display: block; width: 100%; text-align: center; } /* (B) SHOW HAMBURGER ICON */ #hamnav label { width: 100%; display: flex; justify-content: center; } /* (C) TOGGLE SHOW/HIDE MENU */ #hamitems { display: none; padding-top: 1em; } #hamnav input:checked ~ #hamitems { display: block; } .nav-menu { font-size: 1rem; display: flex; flex-direction: column; justify-content: space-evenly; padding-bottom: 0.5em; border-bottom-style: none; } .nav-menu-item { padding-right: 0em; } .footer { font-size: small; } .padlet-iframe { height: 608px; } }
 

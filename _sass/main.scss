@@ -24,9 +24,15 @@ a:active{
   flex-direction: column;
   justify-content: space-between;
   margin: 0.5em;
+  margin-bottom: 50px;
   background-color: white;
-  width: 60%;
+  width: 900px;
   position: relative;
+}
+
+.project-list{
+  list-style-type: none;
+  padding-left: 0;
 }
 
 .footer{
@@ -110,8 +116,15 @@ div.iframe {
 
 img{
   padding: 2em 0 1em 0;
-  width: 50%;
   object-fit: cover;
+}
+
+.center-img{
+  width: 50%;
+}
+
+.full-width-img{
+  width: 100%;
 }
 
 p > div.img-container, div.img-container{
@@ -149,7 +162,7 @@ p > div.img-container, div.img-container{
 
 @media only screen and (max-width: 1200px) {
   .default-wrapper {
-    width: 80%;
+    width: 70%;
   }
 
   .nav-menu{
@@ -180,6 +193,9 @@ p > div.img-container, div.img-container{
 
   img{
     padding: 0.6em 0 0.6em 0;
+  }
+
+  .center-img{
     width: 60%;
   }
 

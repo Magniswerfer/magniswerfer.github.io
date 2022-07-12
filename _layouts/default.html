@@ -30,7 +30,8 @@ title: Home
       </div>
     </div>
     <div class="footer">
-      <div>&copy; Magnus Høholt Kaspersen 2021</div>
+      {% assign currentYear = 'now' | date: "%Y" | plus:0 %}
+      <div>&copy; Magnus Høholt Kaspersen {{currentYear}}</div>
   </div>
   </body>
 </html>

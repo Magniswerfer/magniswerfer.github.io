@@ -1,0 +1,17 @@
+---
+layout: default
+title: Projects
+---
+
+{% for category in site.categories %}
+  <ul class="project-list">
+    {% for post in category[1] %}
+      {% if category[0] == "projects" %}
+        <li class="project-list-item">
+          <h2><a href="{{ post.url }}">{{ post.title}}</a></h2>
+          {{ post.excerpt }}
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+{% endfor %}
